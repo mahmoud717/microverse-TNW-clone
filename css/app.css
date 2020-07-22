@@ -11,6 +11,8 @@
 
 body {
   background-color: #f5f5f5;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 ul {
@@ -105,16 +107,19 @@ nav .nav-main {
   font-weight: 600;
   letter-spacing: -0.5px;
 }
-.nav-main > a {
-  transform: rotateY(180deg);
+
+.nav-main-right {
+  display: flex;
+}
+.nav-main-right a {
   color: rgb(190, 190, 190);
   padding: 0.875rem 1.25rem;
-  border-right: 1px solid rgba(190, 190, 190, 0.5);
+  border-left: 1px solid rgba(190, 190, 190, 0.5);
+  transform: rotateY(180deg);
 }
 
 .showcase-grid-container {
   height: 75vh;
-  max-height: 35rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 50% 50%;
@@ -205,7 +210,7 @@ nav .nav-main {
 
 /* main */
 main {
-  padding: 0 10.9375rem;
+  padding: 0 5vw;
 }
 
 /* latest news section */
@@ -229,13 +234,13 @@ main {
   padding-top: 0.625rem;
 }
 
-.latest-news-article > p {
+.latest-news-article div > p {
   color: #aaa;
   font-size: 0.8125rem;
   padding-top: 0.625rem;
 }
 
-.latest-news-article > p > a {
+.latest-news-article > div > p > a {
   color: inherit;
 }
 
@@ -340,6 +345,7 @@ main {
 
 .main-article-showcase-header {
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 50%;
   width: 100%;
   height: 17.1rem;
@@ -517,6 +523,11 @@ main {
 }
 
 /* Pseudo classes for the linters errors */
+
+.nav-main-right li:nth-child(2) a {
+  color: #f42;
+}
+
 .showcase-item-social li:not(:first-child) {
   padding: 0 0.9375rem;
 }
@@ -687,5 +698,95 @@ main {
 
   .main-article-showcase-header {
     height: 22.5rem;
+  }
+
+  .showcase-item-header {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-main-right {
+    margin-left: auto;
+  }
+  .nav-main-left,
+  .nav-top {
+    display: none !important;
+  }
+
+  .showcase-grid-container {
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .showcase-item-main {
+    grid-row: span 1;
+  }
+
+  .showcase-item-main {
+    justify-content: flex-end;
+  }
+
+  .showcase-item-main .showcase-title {
+    font-size: 1.5rem;
+  }
+
+  .latest-news-grid-container,
+  .latest-funding-grid-container,
+  .latest-articles,
+  .latest-deals-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .latest-news-article,
+  .latest-deals-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .latest-deals-item {
+    line-height: 1.8;
+  }
+
+  .latest-news-article img,
+  .latest-deals-item img {
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+  }
+
+  .latest-funding-top {
+    flex-direction: column;
+  }
+
+  .latest-funding-top-right {
+    margin-bottom: 20px;
+  }
+  .latest-funding-title  {
+    font-size: 1.4rem;
+  }
+
+  .latest-funding-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .latest-funding-footer,
+  .latest-funding-content {
+    font-size: 1rem;
+  }
+
+  .latest-articles .main-article .main-article-showcase-header {
+    background-repeat: no-repeat;
+    background-size: cover ;
+  }
+
+  .latest-deals-discount-badge {
+    display: none;
+  }
+
+  .footer-copyright {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
