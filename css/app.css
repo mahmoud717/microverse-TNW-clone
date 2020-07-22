@@ -20,15 +20,19 @@ ul {
 a {
   text-decoration: none;
 }
+
 section {
   margin: 85px 0;
 }
+
 .section-title {
   margin-bottom: 20px;
 }
+
 .section-title a {
   color: #f42;
 }
+
 /* navbar-top */
 nav .nav-top {
   height: 32px;
@@ -126,7 +130,7 @@ nav .nav-main {
       rgba(0, 0, 0, 0.5634628851540616) 68%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url(../img/showcase-big.png);
+    url(../img/showcase-images/showcase-big.png);
   justify-content: space-between;
   background-repeat: no-repeat;
   background-size: cover;
@@ -218,7 +222,7 @@ main {
 }
 
 /* latest funding section */
-.latest-funding a {
+.latest-funding-top-right a {
   color: inherit;
 }
 
@@ -266,7 +270,7 @@ main {
 }
 
 .latest-funding-item-subtitle {
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
   padding: 11px 0 11px 85px;
   font-size: 12px;
 }
@@ -288,12 +292,23 @@ main {
   padding-right: 10px;
   font-size: 14px;
 }
+.latest-funding-content a {
+  color: #555;
+}
 
 .latest-funding-footer {
-  border-top: 1px solid rgba(255,68,34,.25);
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
   padding: 16px;
   font-size: 12px;
   line-height: 2;
+}
+
+.latest-funding-footer a {
+  color: #555;
+}
+
+.latest-funding-footer li:last-child a {
+  color: #aaa;
 }
 
 /* Pseudo classes for the linters errors */
@@ -310,7 +325,7 @@ main {
       rgba(0, 0, 0, 0.5634628851540616) 68%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url(../img/showcase-camera.jpg);
+    url(../img/showcase-images/showcase-small-1.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -324,7 +339,7 @@ main {
       rgba(0, 0, 0, 0.5634628851540616) 68%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url(../img/amazonbezos-796x448.jpg);
+    url(../img/showcase-images/showcase-small-2.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -332,4 +347,8 @@ main {
   color: #f42;
   text-decoration: underline;
   text-decoration-color: rgba(255, 67, 34, 0.5);
+}
+
+.section-title a:hover {
+  color: #000;
 }
