@@ -1,20 +1,18 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# Positioning and Floating Elements project: New York Times article page
 
-> This is a New York Times article page clone using HTML and CSS3.
+# Design Teardown project: replica of The Next Web website
 
-## Screenshots of original website
+> This is a TNW homepage replica using HTML, CSS3 and media queriers.
 
-![screenshot](./app-screenshot-original-full.png)
+## Screenshots of our website
 
-## Screenshots of our clone website
+![screenshot](./.github/app-screenshot.png)
 
-![screenshot](./app-screenshot-clone-full.png)
+## You can view the [original website here](https://thenextweb.com/)
 
-
-The project is built using Html and Css with an extensive use of the grid, flex and float css properties.
+The project is built using Html and Css with an extensive use of css proprieties and media queries.
 
 ## Built With
 
@@ -24,7 +22,7 @@ The project is built using Html and Css with an extensive use of the grid, flex 
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-new-york-times-article-page/adding-article-page/index.html)
+[Live Demo Link](https://rawcdn.githack.com/mahmoud717/microverse-TNW-clone/fd67ffb36a30dca26a06aa5c2fd56b4ac6aceac0/index.html)
 
 ## To get a local copy up and running follow these simple example steps.
 
@@ -49,11 +47,10 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 - Twitter: [@twitterhandle](https://twitter.com/CeamatuV)
 - Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
 
-👤 **Diego Lira**
+👤 **Mahmoud Mohammad**
 
-- Github: [@githubhandle](https://github.com/lirad)
-- Twitter: [@twitterhandle](https://twitter.com/lirad)
-- Linkedin: [linkedin](https://www.linkedin.com/in/diegoalira/)
+- Github: [@githubhandle](https://github.com/mahmoud717)
+- Twitter: [@twitterhandle](https://twitter.com/mahmoud26369406)
 
 ## Show your support
 
