@@ -1,373 +1,805 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="./favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./css/app.css" />
-    <title>TNW - Microverse project 6</title>
-  </head>
 
-  <body>
-    <header>
-      <!-- Navigation -->
-      <nav>
-        <div class="nav-top">
-          <ul class="nav-top-left">
-            <li><a class="active" href="#">News</a></li>
-            <li>
-              <a href="#">Events <i class="fas fa-caret-down"></i></a>
-            </li>
-            <li>
-              <a href="#">Business <i class="fas fa-caret-down"></i></a>
-            </li>
-            <li><a href="#">AMAs</a></li>
-            <li><a href="#">Spaces</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/app.css" />
+  <title>TNW - Microverse project 6</title>
+</head>
 
-          <ul class="nav-top-right">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Advertise</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Contact</a></li>
+<body>
+  <header>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-top">
+        <ul class="nav-top-left">
+          <li><a class="active" href="#">News</a></li>
+          <li>
+            <a href="#">Events <i class="fas fa-caret-down"></i></a>
+          </li>
+          <li>
+            <a href="#">Business <i class="fas fa-caret-down"></i></a>
+          </li>
+          <li><a href="#">AMAs</a></li>
+          <li><a href="#">Spaces</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+
+        <ul class="nav-top-right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-main">
+        <ul class="nav-main-left">
+          <li><a href="#">LATEST</a></li>
+          <li><a href="#">HARD FORK</a></li>
+          <li><a href="#">PLUGGED</a></li>
+          <li><a href="#">README</a></li>
+          <li><a href="#">GROWTH QUARTERS</a></li>
+          <li><a href="#">NEURAL</a></li>
+        </ul>
+
+        <a href="#" class="nav-main-search"><i class="fas fa-search"></i></a>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <div class="showcase">
+      <article class="showcase-item-main">
+        <p class="showcase-item-main-date">Tuesday — July 21, 2020</p>
+        <a href="#" class="showcase-item-main-logo">
+          <img src="./img/tnw.svg" alt="The News logo">
+        </a>
+        <div class="showcase-item-details">
+          <a href="#">
+            <p class="showcase-item-tag">TECH</p>
+            <h1 class="showcase-header">
+              How to handle layoffs with compassion and transparency
+            </h1>
+          </a>
+          <ul class="showcase-item-social">
+            <li>by <a href="">Bryan Clark</a></li>
+            <li><i class="far fa-clock"></i> 43 minutes ago</li>
+            <li><i class="fas fa-share-alt"></i> 3</li>
           </ul>
         </div>
-        <div class="nav-main">
-          <ul class="nav-main-left">
-            <li><a href="#">LATEST</a></li>
-            <li><a href="#">HARD FORK</a></li>
-            <li><a href="#">PLUGGED</a></li>
-            <li><a href="#">README</a></li>
-            <li><a href="#">GROWTH QUARTERS</a></li>
-            <li><a href="#">NEURAL</a></li>
+      </article>
+      <article class="showcase-item">
+        <div class="showcase-item-details">
+          <a href="#">
+            <p class="showcase-item-tag">GEAR</p>
+            <h1 class="showcase-header">
+              Nikon’s $1,399 Z5 is an affordable full-frame mirrorless camera
+              — with some compromises
+            </h1>
+          </a>
+          <ul class="showcase-item-social">
+            <li>by <a href="">Mix</a></li>
+            <li><i class="far fa-clock"></i> 56 minutes ago</li>
+            <li><i class="fas fa-share-alt"></i> 3</li>
           </ul>
-
-          <a href="#" class="nav-main-search"><i class="fas fa-search"></i></a>
         </div>
-      </nav>
+      </article>
+      <article class="showcase-item">
+        <div class="showcase-item-details">
+          <a href="#">
+            <p class="showcase-item-tag">INSIGHTS</p>
+            <h1 class="showcase-header">
+              Billionaire Jeff Bezos just broke the record for the most
+              billions added in a single day
+            </h1>
+          </a>
+          <ul class="showcase-item-social">
+            <li>by <a href="">David Canellis</a></li>
+            <li><i class="far fa-clock"></i> 1 hour ago</li>
+            <li><i class="fas fa-share-alt"></i> 6</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </header>
 
-      <!-- Showcase -->
-      <div class="showcase">
-        <article class="showcase-item-main">
-          <p class="showcase-item-main-date">Tuesday — July 21, 2020</p>
-          <a href="#" class="showcase-item-main-logo"
-            ><svg
-              style="border: 1px solid red; height: 100px;"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 66 16"
-            >
-              <path
-                fill="#FFF"
-                d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4"
-              /></svg
-          ></a>
-          <div class="showcase-item-details">
-            <a href="#">
-              <p class="showcase-item-tag">TECH</p>
-              <h1 class="showcase-header">
-                How to handle layoffs with compassion and transparency
-              </h1>
-            </a>
-            <ul class="showcase-item-social">
-              <li>by <a href="">Bryan Clark</a></li>
-              <li><i class="far fa-clock"></i> 43 minutes ago</li>
-              <li><i class="fas fa-share-alt"></i> 3</li>
-            </ul>
-          </div>
+  <main>
+    <!-- Latest news section -->
+    <section class="latest-news">
+      <h2 class="main-title">
+        <a href="#"> Latest news <i class="fas fa-angle-right"></i> </a>
+      </h2>
+      <div class="latest-news-grid-container">
+        <article class="latest-news-article">
+          <img class="latest-news-article-image" src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
+            alt="latest-news-article" />
+          <h3 class="latest-news-article-title">From AWS to Microsoft Azure to Google Cloud, this course bundle explains
+            everything</h3>
+          <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
         </article>
-        <article class="showcase-item">
-          <div class="showcase-item-details">
-            <a href="#">
-              <p class="showcase-item-tag">GEAR</p>
-              <h1 class="showcase-header">
-                Nikon’s $1,399 Z5 is an affordable full-frame mirrorless camera
-                — with some compromises
-              </h1>
-            </a>
-            <ul class="showcase-item-social">
-              <li>by <a href="">Mix</a></li>
-              <li><i class="far fa-clock"></i> 56 minutes ago</li>
-              <li><i class="fas fa-share-alt"></i> 3</li>
-            </ul>
-          </div>
+        <article class="latest-news-article">
+          <img class="latest-news-article-image" src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
+            alt="latest-news-article" />
+          <h3 class="latest-news-article-title">From AWS to Microsoft Azure to Google Cloud, this course bundle explains
+            everything</h3>
+          <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
         </article>
-        <article class="showcase-item">
-          <div class="showcase-item-details">
-            <a href="#">
-              <p class="showcase-item-tag">INSIGHTS</p>
-              <h1 class="showcase-header">
-                Billionaire Jeff Bezos just broke the record for the most
-                billions added in a single day
-              </h1>
-            </a>
-            <ul class="showcase-item-social">
-              <li>by <a href="">David Canellis</a></li>
-              <li><i class="far fa-clock"></i> 1 hour ago</li>
-              <li><i class="fas fa-share-alt"></i> 6</li>
-            </ul>
-          </div>
+        <article class="latest-news-article">
+          <img class="latest-news-article-image" src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
+            alt="latest-news-article" />
+          <h3 class="latest-news-article-title">From AWS to Microsoft Azure to Google Cloud, this course bundle explains
+            everything</h3>
+          <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
+        </article>
+        <article class="latest-news-article">
+          <img class="latest-news-article-image" src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
+            alt="latest-news-article" />
+          <h3 class="latest-news-article-title">From AWS to Microsoft Azure to Google Cloud, this course bundle explains
+            everything</h3>
+          <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
+        </article>
+        <article class="latest-news-article">
+          <img class="latest-news-article-image" src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
+            alt="latest-news-article" />
+          <h3 class="latest-news-article-title">From AWS to Microsoft Azure to Google Cloud, this course bundle explains
+            everything</h3>
+          <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
+        </article>
+        <article class="latest-news-article">
+          <img class="latest-news-article-image" src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
+            alt="latest-news-article" />
+          <h3 class="latest-news-article-title">From AWS to Microsoft Azure to Google Cloud, this course bundle explains
+            everything</h3>
+          <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
+        </article>
+        <article class="latest-news-article">
+          <img class="latest-news-article-image" src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
+            alt="latest-news-article" />
+          <h3 class="latest-news-article-title">From AWS to Microsoft Azure to Google Cloud, this course bundle explains
+            everything</h3>
+          <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
+        </article>
+        <article class="latest-news-article">
+          <img class="latest-news-article-image" src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
+            alt="latest-news-article" />
+          <h3 class="latest-news-article-title">From AWS to Microsoft Azure to Google Cloud, this course bundle explains
+            everything</h3>
+          <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
         </article>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <!-- Latest news section -->
-      <section class="latest-news">
-        <h2 class="section-title">
-          <a href="#"> Latest news <i class="fas fa-angle-right"></i> </a>
+    <!-- Latest funding section -->
+    <section class="latest-funding">
+      <div class="latest-funding-top">
+        <h2 class="main-title">
+          <a href="#">
+            Latest funding rounds on Index.co
+            <i class="fas fa-angle-right"></i>
+          </a>
         </h2>
-        <div class="latest-news-grid-container">
-          <article class="latest-news-article">
-            <img
-              class="latest-news-article-image"
-              src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
-              alt="latest-news-article"
-            />
-            <h3 class="latest-news-article-title"></h3>
-            <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
-          </article>
-          <article class="latest-news-article">
-            <img
-              class="latest-news-article-image"
-              src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
-              alt="latest-news-article"
-            />
-            <h3 class="latest-news-article-title"></h3>
-            <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
-          </article>
-          <article class="latest-news-article">
-            <img
-              class="latest-news-article-image"
-              src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
-              alt="latest-news-article"
-            />
-            <h3 class="latest-news-article-title"></h3>
-            <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
-          </article>
-          <article class="latest-news-article">
-            <img
-              class="latest-news-article-image"
-              src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
-              alt="latest-news-article"
-            />
-            <h3 class="latest-news-article-title"></h3>
-            <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
-          </article>
-          <article class="latest-news-article">
-            <img
-              class="latest-news-article-image"
-              src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
-              alt="latest-news-article"
-            />
-            <h3 class="latest-news-article-title"></h3>
-            <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
-          </article>
-          <article class="latest-news-article">
-            <img
-              class="latest-news-article-image"
-              src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
-              alt="latest-news-article"
-            />
-            <h3 class="latest-news-article-title"></h3>
-            <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
-          </article>
-          <article class="latest-news-article">
-            <img
-              class="latest-news-article-image"
-              src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
-              alt="latest-news-article"
-            />
-            <h3 class="latest-news-article-title"></h3>
-            <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
-          </article>
-          <article class="latest-news-article">
-            <img
-              class="latest-news-article-image"
-              src="img/Cloud-Computer-Lifestyle-540x270.jpeg"
-              alt="latest-news-article"
-            />
-            <h3 class="latest-news-article-title"></h3>
-            <p><a href="#">TNW Deals</a> &dot; 41 minutes ago</p>
-          </article>
-        </div>
-      </section>
-
-      <!-- Latest funding section -->
-      <section class="latest-funding">
-        <div class="latest-funding-top">
-          <h2 class="section-title">
-            <a href="#">
-              Latest funding rounds on Index.co
-              <i class="fas fa-angle-right"></i>
-            </a>
-          </h2>
-          <ul class="latest-funding-top-right">
-            <li>Add info</li>
-            <li>Get updates by email</li>
-            <li>See more</li>
+        <ul class="latest-funding-top-right">
+          <li>Add info</li>
+          <li>Get updates by email</li>
+          <li>See more</li>
+        </ul>
+      </div>
+      <div class="latest-funding-grid-container">
+        <article>
+          <div class="latest-funding-header">
+            <img src="img/image.jpg" alt="latest funding header image" />
+            <h3>polymaterialtd</h3>
+            <p>
+              <span class="latest-funding-revenue">£15M</span> <br />
+              VENTURE CAPITAL
+            </p>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fas fa-tag"></i>
+                Biotechnology
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-suitcase"></i>
+                Planet First Partners
+              </a>
+            </li>
           </ul>
+          <ul class="latest-funding-footer">
+            <li>
+              <a href="#">
+                Polymateria closes £15m funding round
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                on UKTN (UK Tech News)
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <div class="latest-funding-header">
+            <img src="img/image.jpg" alt="latest funding header image" />
+            <h3>polymaterialtd</h3>
+            <p>
+              <span class="latest-funding-revenue">£15M</span> <br />
+              VENTURE CAPITAL
+            </p>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fas fa-tag"></i>
+                Biotechnology
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-suitcase"></i>
+                Planet First Partners
+              </a>
+            </li>
+          </ul>
+          <ul class="latest-funding-footer">
+            <li>
+              <a href="#">
+                Polymateria closes £15m funding round
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                on UKTN (UK Tech News)
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <div class="latest-funding-header">
+            <img src="img/image.jpg" alt="latest funding header image" />
+            <h3>polymaterialtd</h3>
+            <p>
+              <span class="latest-funding-revenue">£15M</span> <br />
+              VENTURE CAPITAL
+            </p>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fas fa-tag"></i>
+                Biotechnology
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-suitcase"></i>
+                Planet First Partners
+              </a>
+            </li>
+          </ul>
+          <ul class="latest-funding-footer">
+            <li>
+              <a href="#">
+                Polymateria closes £15m funding round
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                on UKTN (UK Tech News)
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <div class="latest-funding-header">
+            <img src="img/image.jpg" alt="latest funding header image" />
+            <h3>polymaterialtd</h3>
+            <p>
+              <span class="latest-funding-revenue">£15M</span> <br />
+              VENTURE CAPITAL
+            </p>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fas fa-tag"></i>
+                Biotechnology
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-suitcase"></i>
+                Planet First Partners
+              </a>
+            </li>
+          </ul>
+          <ul class="latest-funding-footer">
+            <li>
+              <a href="#">
+                Polymateria closes £15m funding round
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                on UKTN (UK Tech News)
+              </a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Main articles section -->
+    <section class="main-articles">
+      <article class="main-articles-item">
+        <h2 class="main-title">
+          <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
+        </h2>
+        <div class="main-article">
+          <div class="main-article-showcase-header">
+            <div class="main-article-details">
+              <a href="#">
+                <p class="main-article-tag">MOST POPULAR</p>
+                <h2 class="main-article-title">
+                  Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter hackers’
+                </h2>
+              </a>
+              <ul class="main-article-social">
+                <li><a href="">Satoshi Nakaboto</a> &bull; 3 hours ago</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main-article-latest">
+            <div class="main-article-latest-details">
+              <p class="main-article-latest-subtitle">LATEST</p>
+              <h3 class="main-article-latest-title">Billionaire Jeff Bezos just broke the record for the most billions
+                added in a single day</h3>
+            </div>
+            <img src="./img/amazonbezos-796x448.jpg" alt="Muscle guy image">
+          </div>
         </div>
-        <div class="latest-funding-grid-container">
-          <article>
-            <div class="latest-funding-header">
-              <img src="img/image.jpg" alt="latest funding header image" />
-              <h3>polymaterialtd</h3>
-              <p>
-                <span class="latest-funding-revenue">£15M</span> <br />
-                VENTURE CAPITAL
-              </p>
+
+        <ul class="main-article-subarticles">
+          <li><a href="#">Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter
+              hackers’</a></li>
+          <li><a href="#">UK first to source coronavirus vaccines from biotech firms backed by Bill Gates</a></li>
+          <li><a href="#">Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since Bitcoin’</a></li>
+          <li><a href="#">This penny stock with a ticker almost identical to Tesla is up 300% this year</a></li>
+          <li><a href="#">Jailed Wirecard subsidiary exec is ready to snitch, report</a></li>
+        </ul>
+      </article>
+      <article class="main-articles-item">
+        <h2 class="main-title">
+          <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
+        </h2>
+        <div class="main-article">
+          <div class="main-article-showcase-header">
+            <div class="main-article-details">
+              <a href="#">
+                <p class="main-article-tag">MOST POPULAR</p>
+                <h2 class="main-article-title">
+                  Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter hackers’
+                </h2>
+              </a>
+              <ul class="main-article-social">
+                <li><a href="">Satoshi Nakaboto</a> &bull; 3 hours ago</li>
+              </ul>
             </div>
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fas fa-tag"></i>
-                  Biotechnology
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fas fa-suitcase"></i>
-                  Planet First Partners
-                </a>
-              </li>
-            </ul>
-            <ul class="latest-funding-footer">
-              <li>
-                <a href="#">
-                  Polymateria closes £15m funding round
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  on UKTN (UK Tech News)
-                </a>
-              </li>
-            </ul>
-          </article>
-          <article>
-            <div class="latest-funding-header">
-              <img src="img/image.jpg" alt="latest funding header image" />
-              <h3>polymaterialtd</h3>
-              <p>
-                <span class="latest-funding-revenue">£15M</span> <br />
-                VENTURE CAPITAL
-              </p>
+          </div>
+
+          <div class="main-article-latest">
+            <div class="main-article-latest-details">
+              <p class="main-article-latest-subtitle">LATEST</p>
+              <h3 class="main-article-latest-title">Billionaire Jeff Bezos just broke the record for the most billions
+                added in a single day</h3>
             </div>
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fas fa-tag"></i>
-                  Biotechnology
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fas fa-suitcase"></i>
-                  Planet First Partners
-                </a>
-              </li>
-            </ul>
-            <ul class="latest-funding-footer">
-              <li>
-                <a href="#">
-                  Polymateria closes £15m funding round
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  on UKTN (UK Tech News)
-                </a>
-              </li>
-            </ul>
-          </article>
-          <article>
-            <div class="latest-funding-header">
-              <img src="img/image.jpg" alt="latest funding header image" />
-              <h3>polymaterialtd</h3>
-              <p>
-                <span class="latest-funding-revenue">£15M</span> <br />
-                VENTURE CAPITAL
-              </p>
-            </div>
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fas fa-tag"></i>
-                  Biotechnology
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fas fa-suitcase"></i>
-                  Planet First Partners
-                </a>
-              </li>
-            </ul>
-            <ul class="latest-funding-footer">
-              <li>
-                <a href="#">
-                  Polymateria closes £15m funding round
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  on UKTN (UK Tech News)
-                </a>
-              </li>
-            </ul>
-          </article>
-          <article>
-            <div class="latest-funding-header">
-              <img src="img/image.jpg" alt="latest funding header image" />
-              <h3>polymaterialtd</h3>
-              <p>
-                <span class="latest-funding-revenue">£15M</span> <br />
-                VENTURE CAPITAL
-              </p>
-            </div>
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fas fa-tag"></i>
-                  Biotechnology
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fas fa-suitcase"></i>
-                  Planet First Partners
-                </a>
-              </li>
-            </ul>
-            <ul class="latest-funding-footer">
-              <li>
-                <a href="#">
-                  Polymateria closes £15m funding round
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  on UKTN (UK Tech News)
-                </a>
-              </li>
-            </ul>
-          </article>
+            <img src="./img/amazonbezos-796x448.jpg" alt="Muscle guy image">
+          </div>
         </div>
-      </section>
 
-      <!-- Latest articles section -->
-      <section class="latest-articles"></section>
+        <ul class="main-article-subarticles">
+          <li><a href="#">Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter
+              hackers’</a></li>
+          <li><a href="#">UK first to source coronavirus vaccines from biotech firms backed by Bill Gates</a></li>
+          <li><a href="#">Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since Bitcoin’</a></li>
+          <li><a href="#">This penny stock with a ticker almost identical to Tesla is up 300% this year</a></li>
+          <li><a href="#">Jailed Wirecard subsidiary exec is ready to snitch, report</a></li>
+        </ul>
+      </article>
+      <article class="main-articles-item">
+        <h2 class="main-title">
+          <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
+        </h2>
+        <div class="main-article">
+          <div class="main-article-showcase-header">
+            <div class="main-article-details">
+              <a href="#">
+                <p class="main-article-tag">MOST POPULAR</p>
+                <h2 class="main-article-title">
+                  Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter hackers’
+                </h2>
+              </a>
+              <ul class="main-article-social">
+                <li><a href="">Satoshi Nakaboto</a> &bull; 3 hours ago</li>
+              </ul>
+            </div>
+          </div>
 
-      <!-- Latest deals section -->
-      <section class="latest-deals"></section>
-    </main>
+          <div class="main-article-latest">
+            <div class="main-article-latest-details">
+              <p class="main-article-latest-subtitle">LATEST</p>
+              <h3 class="main-article-latest-title">Billionaire Jeff Bezos just broke the record for the most billions
+                added in a single day</h3>
+            </div>
+            <img src="./img/amazonbezos-796x448.jpg" alt="Muscle guy image">
+          </div>
+        </div>
 
-    <!-- Footer -->
-    <footer></footer>
-  </body>
+        <ul class="main-article-subarticles">
+          <li><a href="#">Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter
+              hackers’</a></li>
+          <li><a href="#">UK first to source coronavirus vaccines from biotech firms backed by Bill Gates</a></li>
+          <li><a href="#">Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since Bitcoin’</a></li>
+          <li><a href="#">This penny stock with a ticker almost identical to Tesla is up 300% this year</a></li>
+          <li><a href="#">Jailed Wirecard subsidiary exec is ready to snitch, report</a></li>
+        </ul>
+      </article>
+      <article class="main-articles-item">
+        <h2 class="main-title">
+          <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
+        </h2>
+        <div class="main-article">
+          <div class="main-article-showcase-header">
+            <div class="main-article-details">
+              <a href="#">
+                <p class="main-article-tag">MOST POPULAR</p>
+                <h2 class="main-article-title">
+                  Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter hackers’
+                </h2>
+              </a>
+              <ul class="main-article-social">
+                <li><a href="">Satoshi Nakaboto</a> &bull; 3 hours ago</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main-article-latest">
+            <div class="main-article-latest-details">
+              <p class="main-article-latest-subtitle">LATEST</p>
+              <h3 class="main-article-latest-title">Billionaire Jeff Bezos just broke the record for the most billions
+                added in a single day</h3>
+            </div>
+            <img src="./img/amazonbezos-796x448.jpg" alt="Muscle guy image">
+          </div>
+        </div>
+
+        <ul class="main-article-subarticles">
+          <li><a href="#">Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter
+              hackers’</a></li>
+          <li><a href="#">UK first to source coronavirus vaccines from biotech firms backed by Bill Gates</a></li>
+          <li><a href="#">Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since Bitcoin’</a></li>
+          <li><a href="#">This penny stock with a ticker almost identical to Tesla is up 300% this year</a></li>
+          <li><a href="#">Jailed Wirecard subsidiary exec is ready to snitch, report</a></li>
+        </ul>
+      </article>
+      <article class="main-articles-item">
+        <h2 class="main-title">
+          <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
+        </h2>
+        <div class="main-article">
+          <div class="main-article-showcase-header">
+            <div class="main-article-details">
+              <a href="#">
+                <p class="main-article-tag">MOST POPULAR</p>
+                <h2 class="main-article-title">
+                  Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter hackers’
+                </h2>
+              </a>
+              <ul class="main-article-social">
+                <li><a href="">Satoshi Nakaboto</a> &bull; 3 hours ago</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main-article-latest">
+            <div class="main-article-latest-details">
+              <p class="main-article-latest-subtitle">LATEST</p>
+              <h3 class="main-article-latest-title">Billionaire Jeff Bezos just broke the record for the most billions
+                added in a single day</h3>
+            </div>
+            <img src="./img/amazonbezos-796x448.jpg" alt="Muscle guy image">
+          </div>
+        </div>
+
+        <ul class="main-article-subarticles">
+          <li><a href="#">Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter
+              hackers’</a></li>
+          <li><a href="#">UK first to source coronavirus vaccines from biotech firms backed by Bill Gates</a></li>
+          <li><a href="#">Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since Bitcoin’</a></li>
+          <li><a href="#">This penny stock with a ticker almost identical to Tesla is up 300% this year</a></li>
+          <li><a href="#">Jailed Wirecard subsidiary exec is ready to snitch, report</a></li>
+        </ul>
+      </article>
+      <article class="main-articles-item">
+        <h2 class="main-title">
+          <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
+        </h2>
+        <div class="main-article">
+          <div class="main-article-showcase-header">
+            <div class="main-article-details">
+              <a href="#">
+                <p class="main-article-tag">MOST POPULAR</p>
+                <h2 class="main-article-title">
+                  Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter hackers’
+                </h2>
+              </a>
+              <ul class="main-article-social">
+                <li><a href="">Satoshi Nakaboto</a> &bull; 3 hours ago</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main-article-latest">
+            <div class="main-article-latest-details">
+              <p class="main-article-latest-subtitle">LATEST</p>
+              <h3 class="main-article-latest-title">Billionaire Jeff Bezos just broke the record for the most billions
+                added in a single day</h3>
+            </div>
+            <img src="./img/amazonbezos-796x448.jpg" alt="Muscle guy image">
+          </div>
+        </div>
+
+        <ul class="main-article-subarticles">
+          <li><a href="#">Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter
+              hackers’</a></li>
+          <li><a href="#">UK first to source coronavirus vaccines from biotech firms backed by Bill Gates</a></li>
+          <li><a href="#">Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since Bitcoin’</a></li>
+          <li><a href="#">This penny stock with a ticker almost identical to Tesla is up 300% this year</a></li>
+          <li><a href="#">Jailed Wirecard subsidiary exec is ready to snitch, report</a></li>
+        </ul>
+      </article>
+      <article class="main-articles-item">
+        <h2 class="main-title">
+          <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
+        </h2>
+        <div class="main-article">
+          <div class="main-article-showcase-header">
+            <div class="main-article-details">
+              <a href="#">
+                <p class="main-article-tag">MOST POPULAR</p>
+                <h2 class="main-article-title">
+                  Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter hackers’
+                </h2>
+              </a>
+              <ul class="main-article-social">
+                <li><a href="">Satoshi Nakaboto</a> &bull; 3 hours ago</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main-article-latest">
+            <div class="main-article-latest-details">
+              <p class="main-article-latest-subtitle">LATEST</p>
+              <h3 class="main-article-latest-title">Billionaire Jeff Bezos just broke the record for the most billions
+                added in a single day</h3>
+            </div>
+            <img src="./img/amazonbezos-796x448.jpg" alt="Muscle guy image">
+          </div>
+        </div>
+
+        <ul class="main-article-subarticles">
+          <li><a href="#">Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter
+              hackers’</a></li>
+          <li><a href="#">UK first to source coronavirus vaccines from biotech firms backed by Bill Gates</a></li>
+          <li><a href="#">Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since Bitcoin’</a></li>
+          <li><a href="#">This penny stock with a ticker almost identical to Tesla is up 300% this year</a></li>
+          <li><a href="#">Jailed Wirecard subsidiary exec is ready to snitch, report</a></li>
+        </ul>
+      </article>
+      <article class="main-articles-item">
+        <h2 class="main-title">
+          <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
+        </h2>
+        <div class="main-article">
+          <div class="main-article-showcase-header">
+            <div class="main-article-details">
+              <a href="#">
+                <p class="main-article-tag">MOST POPULAR</p>
+                <h2 class="main-article-title">
+                  Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter hackers’
+                </h2>
+              </a>
+              <ul class="main-article-social">
+                <li><a href="">Satoshi Nakaboto</a> &bull; 3 hours ago</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main-article-latest">
+            <div class="main-article-latest-details">
+              <p class="main-article-latest-subtitle">LATEST</p>
+              <h3 class="main-article-latest-title">Billionaire Jeff Bezos just broke the record for the most billions
+                added in a single day</h3>
+            </div>
+            <img src="./img/amazonbezos-796x448.jpg" alt="Muscle guy image">
+          </div>
+        </div>
+
+        <ul class="main-article-subarticles">
+          <li><a href="#">Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter
+              hackers’</a></li>
+          <li><a href="#">UK first to source coronavirus vaccines from biotech firms backed by Bill Gates</a></li>
+          <li><a href="#">Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since Bitcoin’</a></li>
+          <li><a href="#">This penny stock with a ticker almost identical to Tesla is up 300% this year</a></li>
+          <li><a href="#">Jailed Wirecard subsidiary exec is ready to snitch, report</a></li>
+        </ul>
+      </article>
+      <article class="main-articles-item">
+        <h2 class="main-title">
+          <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
+        </h2>
+        <div class="main-article">
+          <div class="main-article-showcase-header">
+            <div class="main-article-details">
+              <a href="#">
+                <p class="main-article-tag">MOST POPULAR</p>
+                <h2 class="main-article-title">
+                  Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter hackers’
+                </h2>
+              </a>
+              <ul class="main-article-social">
+                <li><a href="">Satoshi Nakaboto</a> &bull; 3 hours ago</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main-article-latest">
+            <div class="main-article-latest-details">
+              <p class="main-article-latest-subtitle">LATEST</p>
+              <h3 class="main-article-latest-title">Billionaire Jeff Bezos just broke the record for the most billions
+                added in a single day</h3>
+            </div>
+            <img src="./img/amazonbezos-796x448.jpg" alt="Muscle guy image">
+          </div>
+        </div>
+
+        <ul class="main-article-subarticles">
+          <li><a href="#">Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin from reaching Twitter
+              hackers’</a></li>
+          <li><a href="#">UK first to source coronavirus vaccines from biotech firms backed by Bill Gates</a></li>
+          <li><a href="#">Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since Bitcoin’</a></li>
+          <li><a href="#">This penny stock with a ticker almost identical to Tesla is up 300% this year</a></li>
+          <li><a href="#">Jailed Wirecard subsidiary exec is ready to snitch, report</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Latest deals section -->
+    <section class="latest-deals">
+      <div class="latest-deals-header">
+        <h2 class="main-title">
+          <a href="#"> Latest deals <i class="fas fa-angle-right"></i> </a>
+        </h2>
+        <a href="#">See all Deals</a>
+      </div>
+      <div class="lates-deals-grid-container">
+        <!-- Latest deals item -->
+        <div class="latest-deals-item">
+          <div class="latest-deals-item-image">
+            <img src="./img/latest-deals1.jpg" alt="Lady explaining to 2 persons something">
+            <span class="latest-deals-discount-badge">100% OFF</span>
+          </div>
+          <h3 class="latest-deals-item-title"><a href="#">FREE: Leadership & Management Diploma 4-Week Course</a></h3>
+          <p class="latest-deals-item-subtitle"><span class="latest-deals-old-price">$49</span> $0</p>
+        </div>
+
+        <!-- Latest deals item -->
+        <div class="latest-deals-item">
+          <div class="latest-deals-item-image">
+            <img src="./img/latest-deals1.jpg" alt="Lady explaining to 2 persons something">
+            <span class="latest-deals-discount-badge">100% OFF</span>
+          </div>
+          <h3 class="latest-deals-item-title"><a href="#">FREE: Leadership & Management Diploma 4-Week Course</a></h3>
+          <p class="latest-deals-item-subtitle"><span class="latest-deals-old-price">$49</span> $0</p>
+        </div>
+
+        <!-- Latest deals item -->
+        <div class="latest-deals-item">
+          <div class="latest-deals-item-image">
+            <img src="./img/latest-deals1.jpg" alt="Lady explaining to 2 persons something">
+            <span class="latest-deals-discount-badge">100% OFF</span>
+          </div>
+          <h3 class="latest-deals-item-title"><a href="#">FREE: Leadership & Management Diploma 4-Week Course</a></h3>
+          <p class="latest-deals-item-subtitle"><span class="latest-deals-old-price">$49</span> $0</p>
+        </div>
+
+        <!-- Latest deals item -->
+        <div class="latest-deals-item">
+          <div class="latest-deals-item-image">
+            <img src="./img/latest-deals1.jpg" alt="Lady explaining to 2 persons something">
+            <span class="latest-deals-discount-badge">100% OFF</span>
+          </div>
+          <h3 class="latest-deals-item-title"><a href="#">FREE: Leadership & Management Diploma 4-Week Course</a></h3>
+          <p class="latest-deals-item-subtitle"><span class="latest-deals-old-price">$49</span> $0</p>
+        </div>
+
+        <!-- Latest deals item -->
+        <div class="latest-deals-item">
+          <div class="latest-deals-item-image">
+            <img src="./img/latest-deals1.jpg" alt="Lady explaining to 2 persons something">
+            <span class="latest-deals-discount-badge">100% OFF</span>
+          </div>
+          <h3 class="latest-deals-item-title"><a href="#">FREE: Leadership & Management Diploma 4-Week Course</a></h3>
+          <p class="latest-deals-item-subtitle"><span class="latest-deals-old-price">$49</span> $0</p>
+        </div>
+
+        <!-- Latest deals item -->
+        <div class="latest-deals-item">
+          <div class="latest-deals-item-image">
+            <img src="./img/latest-deals1.jpg" alt="Lady explaining to 2 persons something">
+            <span class="latest-deals-discount-badge">100% OFF</span>
+          </div>
+          <h3 class="latest-deals-item-title"><a href="#">FREE: Leadership & Management Diploma 4-Week Course</a></h3>
+          <p class="latest-deals-item-subtitle"><span class="latest-deals-old-price">$49</span> $0</p>
+        </div>
+
+        <!-- Latest deals item -->
+        <div class="latest-deals-item">
+          <div class="latest-deals-item-image">
+            <img src="./img/latest-deals1.jpg" alt="Lady explaining to 2 persons something">
+            <span class="latest-deals-discount-badge">100% OFF</span>
+          </div>
+          <h3 class="latest-deals-item-title"><a href="#">FREE: Leadership & Management Diploma 4-Week Course</a></h3>
+          <p class="latest-deals-item-subtitle"><span class="latest-deals-old-price">$49</span> $0</p>
+        </div>
+
+        <!-- Latest deals item -->
+        <div class="latest-deals-item">
+          <div class="latest-deals-item-image">
+            <img src="./img/latest-deals1.jpg" alt="Lady explaining to 2 persons something">
+            <span class="latest-deals-discount-badge">100% OFF</span>
+          </div>
+          <h3 class="latest-deals-item-title"><a href="#">FREE: Leadership & Management Diploma 4-Week Course</a></h3>
+          <p class="latest-deals-item-subtitle"><span class="latest-deals-old-price">$49</span> $0</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-social">
+      <ul class="footer-social-icons">
+        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+        <li><a href="#"><i class="fas fa-rss"></i></a></li>
+        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+
+      <ul class="footer-links">
+        <li><a href="#">EVENTS</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">ADVERTISE</a></li>
+        <li><a href="#">JOBS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="footer-copyright">
+      <p><a href="#"><img src="./img/tnw.svg" alt="Tnw logo"></a> © 2006–2020 The Next
+        Web B.V. Made with &lt;3 in Amsterdam. Powered by <a href="#"><img src="./img/stackpath.svg"
+            alt="Stackpack logo"></a></p>
+    </div>
+  </footer>
+</body>
+
 </html>
