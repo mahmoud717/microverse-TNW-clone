@@ -323,7 +323,7 @@ main {
 .main-article-showcase-header {
   background-size: cover;
   background-position: 50%;
-  width: 370px;
+  width: 100%;
   height: 275px;
   display: flex;
   flex-direction: column;
@@ -392,6 +392,111 @@ main {
   font-size: 13px;
   color: rgb(99, 99, 99);
 }
+
+/* latest deals */
+
+.latest-deals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.latest-deals-header > a {
+  color: #f42;
+}
+
+.latest-deals-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.latest-deals-grid-container img {
+  max-width: 100%;
+}
+
+.latest-deals-item-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.latest-deals-discount-badge {
+  position: absolute;
+  right: -60px;
+  top: -30px;
+  background-color: hsl(48deg 100% 50%);
+  padding: 24% 15% 2px;
+  transform: rotate(45deg);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.latest-deals-item-title a {
+  font-size: 16px;
+  color: #000;
+}
+
+.latest-deals-item-subtitle {
+  font-size: 16px;
+  color: #555;
+}
+
+.latest-deals-old-price {
+  font-size: 13px;
+  color: #aaa;
+  margin-right: 4px;
+  text-decoration: line-through;
+}
+
+/* footer */
+
+.footer-social {
+  background-color: hsl(0deg 0% 7%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+  padding: 48px 0 28px;
+}
+
+.footer-social-icons,
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-icons a {
+  display: block;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+  background: rgb(51, 51, 51);
+  border-radius: 50%;
+  padding: 12px;
+  color: #fff;
+}
+
+.footer-links a{
+  color: #aaa;
+  font-size: 12px;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+}
+
+.footer-copyright {
+  background-color: #000;
+  text-align: center;
+  padding: 39px 0;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.footer-copyright img {
+  height: 9px;
+}
+
 /* Pseudo classes for the linters errors */
 .showcase-item-social li:not(:first-child) {
   padding: 0 15px;
@@ -523,4 +628,13 @@ main {
       rgba(0, 0, 0, 1) 100%
     ),
     url(../img/latest-articles-images/latest-articles-image-9.jpg);
+}
+
+.footer-social-icons a:hover {
+  background-color: hsl(0deg 0% 7%);
+}
+
+.footer-social-icons li:not(:first-child),
+.footer-links li:not(:first-child){
+  margin-left: 12px;
 }
