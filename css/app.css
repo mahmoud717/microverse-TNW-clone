@@ -218,6 +218,10 @@ main {
 }
 
 /* latest funding section */
+.latest-funding a {
+  color: inherit;
+}
+
 .latest-funding-top {
   display: flex;
   justify-content: space-between;
@@ -244,10 +248,7 @@ main {
 
 .latest-funding-grid-container > article {
   width: 100%;
-}
-
-.latest-funding-header {
-  padding: 7px 0 0 85px;
+  background-color: #fff8f5;
 }
 
 .latest-funding-grid-container > article img {
@@ -255,6 +256,44 @@ main {
   height: 60px;
   position: absolute;
   margin: 11px;
+}
+
+.latest-funding-item-title {
+  background-color: #f42;
+  color: #fff;
+  padding: 11px 0 11px 85px;
+  font-size: 18px;
+}
+
+.latest-funding-item-subtitle {
+  background-color: rgba(255,68,34,.08);
+  padding: 11px 0 11px 85px;
+  font-size: 12px;
+}
+
+.latest-funding-revenue {
+  font-size: 18px;
+}
+
+.latest-funding-content {
+  font-size: 12px;
+  color: #555;
+  padding: 16px;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.latest-funding-content i {
+  color: #000;
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+.latest-funding-footer {
+  border-top: 1px solid rgba(255,68,34,.25);
+  padding: 16px;
+  font-size: 12px;
+  line-height: 2;
 }
 
 /* Pseudo classes for the linters errors */
