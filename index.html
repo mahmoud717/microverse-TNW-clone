@@ -1,1061 +1,1195 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>TNW - Microverse project 6</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" href="./favicon.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-  <link rel="stylesheet" href="./css/app.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet" />
-  <title>TNW - Microverse project 6</title>
-</head>
+  <body>
+    <header>
+      <!-- Navigation -->
+      <nav>
+        <a class="nav-logo" href="#"
+          ><img src="./img/tnw.svg" alt="Tnw logo"
+        /></a>
+        <div class="navbar-container">
+          <div class="nav-top">
+            <ul class="nav-top-left">
+              <li>
+                <a class="active" href="#">News</a>
+              </li>
+              <li>
+                <a href="#">Events <i class="fas fa-caret-down"></i></a>
+              </li>
+              <li>
+                <a href="#">Business <i class="fas fa-caret-down"></i></a>
+              </li>
+              <li><a href="#">AMAs</a></li>
+              <li><a href="#">Spaces</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
 
-<body>
-  <header>
-    <!-- Navigation -->
-    <nav>
-      <div class="nav-top">
-        <ul class="nav-top-left">
-          <li>
-            <a class="active" href="#">News</a>
-          </li>
-          <li>
-            <a href="#">Events <i class="fas fa-caret-down"></i></a>
-          </li>
-          <li>
-            <a href="#">Business <i class="fas fa-caret-down"></i></a>
-          </li>
-          <li><a href="#">AMAs</a></li>
-          <li><a href="#">Spaces</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-        </ul>
+            <ul class="nav-top-right">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Advertise</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="nav-main">
+            <ul class="nav-main-left">
+              <li><a href="#">LATEST</a></li>
+              <li><a href="#">HARD FORK</a></li>
+              <li><a href="#">PLUGGED</a></li>
+              <li><a href="#">README</a></li>
+              <li><a href="#">GROWTH QUARTERS</a></li>
+              <li><a href="#">NEURAL</a></li>
+            </ul>
 
-        <ul class="nav-top-right">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Advertise</a></li>
-          <li><a href="#">Jobs</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div class="nav-main">
-        <ul class="nav-main-left">
-          <li><a href="#">LATEST</a></li>
-          <li><a href="#">HARD FORK</a></li>
-          <li><a href="#">PLUGGED</a></li>
-          <li><a href="#">README</a></li>
-          <li><a href="#">GROWTH QUARTERS</a></li>
-          <li><a href="#">NEURAL</a></li>
-        </ul>
-
-        <a href="#" class="nav-main-search"><i class="fas fa-search"></i></a>
-      </div>
-    </nav>
-
-    <!-- Showcase -->
-    <div class="showcase-grid-container">
-      <article class="showcase-item showcase-item-main">
-        <div class="showcase-item-header">
-          <a href="#" class="showcase-item-main-logo">
-            <img src="img/tnw.svg" alt="TNW logo" />
-          </a>
-          <p class="showcase-item-main-date">Tuesday — July 21, 2020</p>
+            <a href="#" class="nav-main-search"
+              ><i class="fas fa-search"></i
+            ></a>
+          </div>
         </div>
+      </nav>
 
-        <div class="showcase-item-details">
-          <a href="#">
-            <p class="showcase-item-tag">TECH</p>
-            <h1 class="showcase-title">
-              How to handle layoffs with compassion and transparency
-            </h1>
-          </a>
-          <ul class="showcase-item-social">
-            <li>by <a href="">Bryan Clark</a></li>
-            <li><i class="far fa-clock"></i> 43 minutes ago</li>
-            <li><i class="fas fa-share-alt"></i> 3</li>
-          </ul>
-        </div>
-      </article>
+      <!-- Showcase -->
+      <div class="showcase-grid-container">
+        <article class="showcase-item showcase-item-main">
+          <div class="showcase-item-header">
+            <a href="#" class="showcase-item-main-logo">
+              <img src="img/tnw.svg" alt="TNW logo" />
+            </a>
+            <p class="showcase-item-main-date">Tuesday — July 21, 2020</p>
+          </div>
 
-      <article class="showcase-item">
-        <div class="showcase-item-details">
-          <a href="#">
-            <p class="showcase-item-tag">TECH</p>
-            <h1 class="showcase-title">
-              Nikon’s $1,399 Z5 is an affordable full-frame mirrorless camera
-              — with some compromises
-            </h1>
-          </a>
-          <ul class="showcase-item-social">
-            <li>by <a href="">Mix</a></li>
-            <li><i class="far fa-clock"></i> 56 minutes ago</li>
-            <li><i class="fas fa-share-alt"></i> 3</li>
-          </ul>
-        </div>
-      </article>
+          <div class="showcase-item-details">
+            <a href="#">
+              <p class="showcase-item-tag">TECH</p>
+              <h1 class="showcase-title">
+                How to handle layoffs with compassion and transparency
+              </h1>
+            </a>
+            <ul class="showcase-item-social">
+              <li>by <a href="">Bryan Clark</a></li>
+              <li><i class="far fa-clock"></i> 43 minutes ago</li>
+              <li><i class="fas fa-share-alt"></i> 3</li>
+            </ul>
+          </div>
+        </article>
 
-      <article class="showcase-item">
-        <div class="showcase-item-details">
-          <a href="#">
-            <p class="showcase-item-tag">INSIGHTS</p>
-            <h1 class="showcase-title">
-              Billionaire Jeff Bezos just broke the record for the most
-              billions added in a single day
-            </h1>
-          </a>
-          <ul class="showcase-item-social">
-            <li>by <a href="">David Canellis</a></li>
-            <li><i class="far fa-clock"></i> 1 hour ago</li>
-            <li><i class="fas fa-share-alt"></i> 6</li>
-          </ul>
-        </div>
-      </article>
-    </div>
-  </header>
+        <article class="showcase-item">
+          <div class="showcase-item-details">
+            <a href="#">
+              <p class="showcase-item-tag">TECH</p>
+              <h1 class="showcase-title">
+                Nikon’s $1,399 Z5 is an affordable full-frame mirrorless camera
+                — with some compromises
+              </h1>
+            </a>
+            <ul class="showcase-item-social">
+              <li>by <a href="">Mix</a></li>
+              <li><i class="far fa-clock"></i> 56 minutes ago</li>
+              <li><i class="fas fa-share-alt"></i> 3</li>
+            </ul>
+          </div>
+        </article>
 
-  <main>
-    <!-- Latest news section -->
-    <section class="latest-news">
-      <h2 class="section-title">
-        <a href="#"> Latest news <i class="fas fa-angle-right"></i> </a>
-      </h2>
-      <div class="latest-news-grid-container">
-        <article class="latest-news-article">
-          <a href="#"><img class="latest-news-article-image" src="img/latest-news-images/latest-news-image-1.png"
-              alt="latest-news-article" /></a>
-          <h3 class="latest-news-article-title">
-            4 soft skills that will transform your software development career
-          </h3>
-          <p><a href="#">cult</a> &dot; 9 minutes ago</p>
-        </article>
-        <article class="latest-news-article">
-          <a href="#"><img class="latest-news-article-image" src="img/latest-news-images/latest-news-image-2.jpg"
-              alt="latest-news-article" /></a>
-          <h3 class="latest-news-article-title">
-            TikTok might be sold to US investors to ward off security concerns
-          </h3>
-          <p><a href="#">Abhimanyu Ghoshal</a> &dot; 33 minutes ago</p>
-        </article>
-        <article class="latest-news-article">
-          <a href="#"><img class="latest-news-article-image" src="img/latest-news-images/latest-news-image-3.gif"
-              alt="latest-news-article" /></a>
-          <h3 class="latest-news-article-title">Is your brain okay?</h3>
-          <p><a href="#">Tristan Greene</a> &dot; 12 hours ago</p>
-        </article>
-        <article class="latest-news-article">
-          <a href="#"><img class="latest-news-article-image" src="img/latest-news-images/latest-news-image-4.jpg"
-              alt="latest-news-article" /></a>
-          <h3 class="latest-news-article-title">
-            The OnePlus Buds sound great at $79, but they just don't fit my
-            ears
-          </h3>
-          <p><a href="#">Napier Lopez</a> &dot; 15 hours ago</p>
-        </article>
-        <article class="latest-news-article">
-          <a href="#"><img class="latest-news-article-image" src="img/latest-news-images/latest-news-image-5.jpg"
-              alt="latest-news-article" /></a>
-          <h3 class="latest-news-article-title">
-            Robinhood cancels UK launch following increased scrutiny in the US
-          </h3>
-          <p><a href="#">David Canellis</a> &dot; 15 hours ago</p>
-        </article>
-        <article class="latest-news-article">
-          <a href="#"><img class="latest-news-article-image" src="img/latest-news-images/latest-news-image-6.png"
-              alt="latest-news-article" /></a>
-          <h3 class="latest-news-article-title">
-            Korean battery maker drama threatens Ford's all-electric F150
-            truck, US jobs
-          </h3>
-          <p><a href="#">Matthew Beedham</a> &dot; 16 hours ago</p>
-        </article>
-        <article class="latest-news-article">
-          <a href="#"><img class="latest-news-article-image" src="img/latest-news-images/latest-news-image-7.jpg"
-              alt="latest-news-article" /></a>
-          <h3 class="latest-news-article-title">
-            72 hours with the OnePlus Nord: all the ingredients for a
-            successful sub-$500 phone
-          </h3>
-          <p><a href="#">Ivan Mehta</a> &dot; 16 hours ago</p>
-        </article>
-        <article class="latest-news-article">
-          <a href="#"><img class="latest-news-article-image" src="img/latest-news-images/latest-news-image-8.jpg"
-              alt="latest-news-article" /></a>
-          <h3 class="latest-news-article-title">
-            OnePlus launches its affordable OnePlus Nord in India and Europe
-          </h3>
-          <p><a href="#">Ivan Mehta</a> &dot; 16 hours ago</p>
+        <article class="showcase-item">
+          <div class="showcase-item-details">
+            <a href="#">
+              <p class="showcase-item-tag">INSIGHTS</p>
+              <h1 class="showcase-title">
+                Billionaire Jeff Bezos just broke the record for the most
+                billions added in a single day
+              </h1>
+            </a>
+            <ul class="showcase-item-social">
+              <li>by <a href="">David Canellis</a></li>
+              <li><i class="far fa-clock"></i> 1 hour ago</li>
+              <li><i class="fas fa-share-alt"></i> 6</li>
+            </ul>
+          </div>
         </article>
       </div>
-    </section>
+    </header>
 
-    <!-- Latest funding section -->
-    <section class="latest-funding">
-      <div class="latest-funding-top">
+    <main>
+      <!-- Latest news section -->
+      <section class="latest-news">
         <h2 class="section-title">
-          <a href="#">
-            Latest funding rounds on Index.co
-            <i class="fas fa-angle-right"></i>
-          </a>
+          <a href="#"> Latest news <i class="fas fa-angle-right"></i> </a>
         </h2>
-        <ul class="latest-funding-top-right">
-          <li><a href="#">Add info</a>|</li>
-          <li><a href="#">Get updates by email</a>|</li>
-          <li><a href="#">See more</a></li>
-        </ul>
-      </div>
-      <div class="latest-funding-grid-container">
-        <article>
-          <div class="latest-funding-header">
-            <img src="img/latest-funding-images/latest-funding-image-1.jpg" alt="latest funding header image" />
-            <h3 class="latest-funding-item-title">Meemo</h3>
-            <p class="latest-funding-item-subtitle">
-              <b class="latest-funding-revenue">$10M</b> <br />
-              SEED FUND
-            </p>
-          </div>
-          <ul class="latest-funding-content">
-            <li>
-              <a href="#">
-                <i class="fas fa-tag"></i>
-                Finance, +3
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fas fa-suitcase"></i>
-                Sierra Ventures, +5
-              </a>
-            </li>
-          </ul>
-          <ul class="latest-funding-footer">
-            <li>
-              <a href="#">
-                Meemo Secures $10M in Funding
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                on FinSMEs
-              </a>
-            </li>
-          </ul>
-        </article>
-        <article>
-          <div class="latest-funding-header">
-            <img src="img/latest-funding-images/latest-funding-image-2.jpg" alt="latest funding header image" />
-            <h3 class="latest-funding-item-title">polymaterialtd</h3>
-            <p class="latest-funding-item-subtitle">
-              <b class="latest-funding-revenue">£15M</b> <br />
-              VENTURE CAPITAL
-            </p>
-          </div>
-          <ul class="latest-funding-content">
-            <li>
-              <a href="#">
-                <i class="fas fa-tag"></i>
-                Biotechnology
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fas fa-suitcase"></i>
-                Planet First Partners
-              </a>
-            </li>
-          </ul>
-          <ul class="latest-funding-footer">
-            <li>
-              <a href="#">
-                Polymateria closes £15m funding round
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                on UKTN (UK Tech News)
-              </a>
-            </li>
-          </ul>
-        </article>
-        <article>
-          <div class="latest-funding-header">
-            <img src="img/latest-funding-images/latest-funding-image-3.jpg" alt="latest funding header image" />
-            <h3 class="latest-funding-item-title">Trell</h3>
-            <p class="latest-funding-item-subtitle">
-              <b class="latest-funding-revenue">$10M</b> <br />
-              SERIES A
-            </p>
-          </div>
-          <ul class="latest-funding-content">
-            <li>
-              <a href="#">
-                <i class="fas fa-tag"></i>
-                Social Media Platforms, +2
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fas fa-suitcase"></i>
-                Samsung Ventures, +3
-              </a>
-            </li>
-          </ul>
-          <ul class="latest-funding-footer">
-            <li>
-              <a href="#">
-                Exclusive: Trell to raise $10 Mn Series A round led by Samsung
-                and KTBN
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                on Entrackr
-              </a>
-            </li>
-          </ul>
-        </article>
-        <article>
-          <div class="latest-funding-header">
-            <img src="img/latest-funding-images/latest-funding-image-4.jpg" alt="latest funding header image" />
-            <h3 class="latest-funding-item-title">Plum</h3>
-            <p class="latest-funding-item-subtitle">
-              <b class="latest-funding-revenue">$10M</b> <br />
-              VENTURE CAPITAL
-            </p>
-          </div>
-          <ul class="latest-funding-content">
-            <li>
-              <a href="#">
-                <i class="fas fa-tag"></i>
-                Personal Finance, +2
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fas fa-suitcase"></i>
-                Global Brain
-              </a>
-            </li>
-          </ul>
-          <ul class="latest-funding-footer">
-            <li>
-              <a href="#">
-                Plum raises $10M for its ‘smart’ money
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                management app on TechCrunch
-              </a>
-            </li>
-          </ul>
-        </article>
-      </div>
-    </section>
+        <div class="latest-news-grid-container">
+          <article class="latest-news-article">
+            <a href="#"
+              ><img
+                class="latest-news-article-image"
+                src="img/latest-news-images/latest-news-image-1.png"
+                alt="latest-news-article"
+            /></a>
+            <h3 class="latest-news-article-title">
+              4 soft skills that will transform your software development career
+            </h3>
+            <p><a href="#">cult</a> &dot; 9 minutes ago</p>
+          </article>
+          <article class="latest-news-article">
+            <a href="#"
+              ><img
+                class="latest-news-article-image"
+                src="img/latest-news-images/latest-news-image-2.jpg"
+                alt="latest-news-article"
+            /></a>
+            <h3 class="latest-news-article-title">
+              TikTok might be sold to US investors to ward off security concerns
+            </h3>
+            <p><a href="#">Abhimanyu Ghoshal</a> &dot; 33 minutes ago</p>
+          </article>
+          <article class="latest-news-article">
+            <a href="#"
+              ><img
+                class="latest-news-article-image"
+                src="img/latest-news-images/latest-news-image-3.gif"
+                alt="latest-news-article"
+            /></a>
+            <h3 class="latest-news-article-title">Is your brain okay?</h3>
+            <p><a href="#">Tristan Greene</a> &dot; 12 hours ago</p>
+          </article>
+          <article class="latest-news-article">
+            <a href="#"
+              ><img
+                class="latest-news-article-image"
+                src="img/latest-news-images/latest-news-image-4.jpg"
+                alt="latest-news-article"
+            /></a>
+            <h3 class="latest-news-article-title">
+              The OnePlus Buds sound great at $79, but they just don't fit my
+              ears
+            </h3>
+            <p><a href="#">Napier Lopez</a> &dot; 15 hours ago</p>
+          </article>
+          <article class="latest-news-article">
+            <a href="#"
+              ><img
+                class="latest-news-article-image"
+                src="img/latest-news-images/latest-news-image-5.jpg"
+                alt="latest-news-article"
+            /></a>
+            <h3 class="latest-news-article-title">
+              Robinhood cancels UK launch following increased scrutiny in the US
+            </h3>
+            <p><a href="#">David Canellis</a> &dot; 15 hours ago</p>
+          </article>
+          <article class="latest-news-article">
+            <a href="#"
+              ><img
+                class="latest-news-article-image"
+                src="img/latest-news-images/latest-news-image-6.png"
+                alt="latest-news-article"
+            /></a>
+            <h3 class="latest-news-article-title">
+              Korean battery maker drama threatens Ford's all-electric F150
+              truck, US jobs
+            </h3>
+            <p><a href="#">Matthew Beedham</a> &dot; 16 hours ago</p>
+          </article>
+          <article class="latest-news-article">
+            <a href="#"
+              ><img
+                class="latest-news-article-image"
+                src="img/latest-news-images/latest-news-image-7.jpg"
+                alt="latest-news-article"
+            /></a>
+            <h3 class="latest-news-article-title">
+              72 hours with the OnePlus Nord: all the ingredients for a
+              successful sub-$500 phone
+            </h3>
+            <p><a href="#">Ivan Mehta</a> &dot; 16 hours ago</p>
+          </article>
+          <article class="latest-news-article">
+            <a href="#"
+              ><img
+                class="latest-news-article-image"
+                src="img/latest-news-images/latest-news-image-8.jpg"
+                alt="latest-news-article"
+            /></a>
+            <h3 class="latest-news-article-title">
+              OnePlus launches its affordable OnePlus Nord in India and Europe
+            </h3>
+            <p><a href="#">Ivan Mehta</a> &dot; 16 hours ago</p>
+          </article>
+        </div>
+      </section>
 
-    <!-- latest articles section -->
-    <section class="latest-articles">
-      <article class="latest-articles-item">
-        <h2 class="section-title">
-          <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
-        </h2>
-        <div class="main-article">
-          <div class="main-article-showcase-header">
-            <div class="main-article-details">
-              <a href="#">
-                <p class="main-article-tag">MOST POPULAR</p>
-                <h2 class="main-article-title">
-                  Robinhood cancels UK launch following increased scrutiny in
-                  the US
-                </h2>
-              </a>
-              <ul class="main-article-social">
-                <li><a href="#">David Canellis</a> &bull; 20 hours ago</li>
-              </ul>
+      <!-- Latest funding section -->
+      <section class="latest-funding">
+        <div class="latest-funding-top">
+          <h2 class="section-title">
+            <a href="#">
+              Latest funding rounds on Index.co
+              <i class="fas fa-angle-right"></i>
+            </a>
+          </h2>
+          <ul class="latest-funding-top-right">
+            <li><a href="#">Add info</a>|</li>
+            <li><a href="#">Get updates by email</a>|</li>
+            <li><a href="#">See more</a></li>
+          </ul>
+        </div>
+        <div class="latest-funding-grid-container">
+          <article>
+            <div class="latest-funding-header">
+              <img
+                src="img/latest-funding-images/latest-funding-image-1.jpg"
+                alt="latest funding header image"
+              />
+              <h3 class="latest-funding-item-title">Meemo</h3>
+              <p class="latest-funding-item-subtitle">
+                <b class="latest-funding-revenue">$10M</b> <br />
+                SEED FUND
+              </p>
+            </div>
+            <ul class="latest-funding-content">
+              <li>
+                <a href="#">
+                  <i class="fas fa-tag"></i>
+                  Finance, +3
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-suitcase"></i>
+                  Sierra Ventures, +5
+                </a>
+              </li>
+            </ul>
+            <ul class="latest-funding-footer">
+              <li>
+                <a href="#">
+                  Meemo Secures $10M in Funding
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  on FinSMEs
+                </a>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <div class="latest-funding-header">
+              <img
+                src="img/latest-funding-images/latest-funding-image-2.jpg"
+                alt="latest funding header image"
+              />
+              <h3 class="latest-funding-item-title">polymaterialtd</h3>
+              <p class="latest-funding-item-subtitle">
+                <b class="latest-funding-revenue">£15M</b> <br />
+                VENTURE CAPITAL
+              </p>
+            </div>
+            <ul class="latest-funding-content">
+              <li>
+                <a href="#">
+                  <i class="fas fa-tag"></i>
+                  Biotechnology
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-suitcase"></i>
+                  Planet First Partners
+                </a>
+              </li>
+            </ul>
+            <ul class="latest-funding-footer">
+              <li>
+                <a href="#">
+                  Polymateria closes £15m funding round
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  on UKTN (UK Tech News)
+                </a>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <div class="latest-funding-header">
+              <img
+                src="img/latest-funding-images/latest-funding-image-3.jpg"
+                alt="latest funding header image"
+              />
+              <h3 class="latest-funding-item-title">Trell</h3>
+              <p class="latest-funding-item-subtitle">
+                <b class="latest-funding-revenue">$10M</b> <br />
+                SERIES A
+              </p>
+            </div>
+            <ul class="latest-funding-content">
+              <li>
+                <a href="#">
+                  <i class="fas fa-tag"></i>
+                  Social Media Platforms, +2
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-suitcase"></i>
+                  Samsung Ventures, +3
+                </a>
+              </li>
+            </ul>
+            <ul class="latest-funding-footer">
+              <li>
+                <a href="#">
+                  Exclusive: Trell to raise $10 Mn Series A round led by Samsung
+                  and KTBN
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  on Entrackr
+                </a>
+              </li>
+            </ul>
+          </article>
+          <article>
+            <div class="latest-funding-header">
+              <img
+                src="img/latest-funding-images/latest-funding-image-4.jpg"
+                alt="latest funding header image"
+              />
+              <h3 class="latest-funding-item-title">Plum</h3>
+              <p class="latest-funding-item-subtitle">
+                <b class="latest-funding-revenue">$10M</b> <br />
+                VENTURE CAPITAL
+              </p>
+            </div>
+            <ul class="latest-funding-content">
+              <li>
+                <a href="#">
+                  <i class="fas fa-tag"></i>
+                  Personal Finance, +2
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-suitcase"></i>
+                  Global Brain
+                </a>
+              </li>
+            </ul>
+            <ul class="latest-funding-footer">
+              <li>
+                <a href="#">
+                  Plum raises $10M for its ‘smart’ money
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  management app on TechCrunch
+                </a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- latest articles section -->
+      <section class="latest-articles">
+        <article class="latest-articles-item">
+          <h2 class="section-title">
+            <a href="#"> Hard Fork <i class="fas fa-angle-right"></i> </a>
+          </h2>
+          <div class="main-article">
+            <div class="main-article-showcase-header">
+              <div class="main-article-details">
+                <a href="#">
+                  <p class="main-article-tag">MOST POPULAR</p>
+                  <h2 class="main-article-title">
+                    Robinhood cancels UK launch following increased scrutiny in
+                    the US
+                  </h2>
+                </a>
+                <ul class="main-article-social">
+                  <li><a href="#">David Canellis</a> &bull; 20 hours ago</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="main-article-latest">
+              <div class="main-article-latest-details">
+                <p class="main-article-latest-subtitle">LATEST</p>
+                <h3 class="main-article-latest-title">
+                  Satoshi Nakaboto: ‘Bitcoin inches up after trading flat for 2
+                  weeks’
+                </h3>
+              </div>
+              <img
+                src="./img/latest-articles-sub-images/latest-articles-subimage-1.jpg"
+                alt="chinese guy image"
+              />
             </div>
           </div>
 
-          <div class="main-article-latest">
-            <div class="main-article-latest-details">
-              <p class="main-article-latest-subtitle">LATEST</p>
-              <h3 class="main-article-latest-title">
+          <ul class="main-article-subarticles">
+            <li>
+              <a href="#">
+                Robinhood cancels UK launch following increased scrutiny in the
+                US
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Billionaire Jeff Bezos just broke the record for the most
+                billions added in a single day
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin
+                from reaching Twitter hackers’
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                UK first to source coronavirus vaccines from biotech firms
+                backed by Bill Gates
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since
+                Bitcoin’
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="latest-articles-item">
+          <h2 class="section-title">
+            <a href="#"> Apps <i class="fas fa-angle-right"></i> </a>
+          </h2>
+          <div class="main-article">
+            <div class="main-article-showcase-header">
+              <div class="main-article-details">
+                <a href="#">
+                  <p class="main-article-tag">MOST POPULAR</p>
+                  <h2 class="main-article-title">
+                    TikTok might be sold to US investors to ward off security
+                    concerns
+                  </h2>
+                </a>
+                <ul class="main-article-social">
+                  <li><a href="">Abhimanyu Ghoshal</a> &bull; 4 hours ago</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="main-article-latest">
+              <div class="main-article-latest-details">
+                <p class="main-article-latest-subtitle">LATEST</p>
+                <h3 class="main-article-latest-title">
+                  How to find non-gaming servers on Discord
+                </h3>
+              </div>
+              <img
+                src="./img/latest-articles-sub-images/latest-articles-subimage-2.jpg"
+                alt="Discord image"
+              />
+            </div>
+          </div>
+
+          <ul class="main-article-subarticles">
+            <li>
+              <a href="#">
+                How to auto-mute yourself in Zoom meetings (and shut up unruly
+                participants)
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Google's new video-shopping app is like a telemarketing channel
+                for influencers
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                >The giant Twitter hack is being investigated by the FBI</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                Facebook gears up to take on TikTok with Instagram Reels'
+                worldwide launch
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                >Gmail is getting a massive redesign to work more like Slack</a
+              >
+            </li>
+          </ul>
+        </article>
+        <article class="latest-articles-item">
+          <h2 class="section-title">
+            <a href="#"> Gear <i class="fas fa-angle-right"></i> </a>
+          </h2>
+          <div class="main-article">
+            <div class="main-article-showcase-header">
+              <div class="main-article-details">
+                <a href="#">
+                  <p class="main-article-tag">MOST POPULAR</p>
+                  <h2 class="main-article-title">
+                    The OnePlus Buds sound great at $79, but they just don't fit
+                    my ears
+                  </h2>
+                </a>
+                <ul class="main-article-social">
+                  <li><a href="">Napier Lopez</a> &bull; 14 hours ago</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="main-article-latest">
+              <div class="main-article-latest-details">
+                <p class="main-article-latest-subtitle">LATEST</p>
+                <h3 class="main-article-latest-title">
+                  Nikon's $1,399 Z5 is an affordable full-frame mirrorless
+                  camera — with some compromises
+                </h3>
+              </div>
+              <img
+                src="./img/latest-articles-sub-images/latest-articles-subimage-3.jpg"
+                alt="camera image"
+              />
+            </div>
+          </div>
+
+          <ul class="main-article-subarticles">
+            <li>
+              <a href="#">
+                Review: The Hifiman Deva are premium $300 headphones that happen
+                to come with Bluetooth
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                We estimated how much the new braided iPhone cable will cost
+                consumers
+              </a>
+            </li>
+            <li>
+              <a href="#">Here's our best look at the OnePlus Nord yet</a>
+            </li>
+            <li><a href="#">Here’s how to scan a QR code on an iPhone</a></li>
+            <li>
+              <a href="#"
+                >Google 'accidentally' leaks the Pixel 4a in its own store</a
+              >
+            </li>
+          </ul>
+        </article>
+        <article class="latest-articles-item">
+          <h2 class="section-title">
+            <a href="#"> Tech <i class="fas fa-angle-right"></i> </a>
+          </h2>
+          <div class="main-article">
+            <div class="main-article-showcase-header">
+              <div class="main-article-details">
+                <a href="#">
+                  <p class="main-article-tag">MOST POPULAR</p>
+                  <h2 class="main-article-title">
+                    4 soft skills that will transform your software development
+                    career
+                  </h2>
+                </a>
+                <ul class="main-article-social">
+                  <li><a href="">.cult</a> &bull; 4 hours ago</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="main-article-latest">
+              <div class="main-article-latest-details">
+                <p class="main-article-latest-subtitle">LATEST</p>
+                <h3 class="main-article-latest-title">
+                  EV battery basics: All you need to know about kW, kWh, and
+                  charging speed
+                </h3>
+              </div>
+              <img
+                src="./img/latest-articles-sub-images/latest-articles-subimage-4.jpg"
+                alt="guy image"
+              />
+            </div>
+          </div>
+
+          <ul class="main-article-subarticles">
+            <li>
+              <a href="#">Why the new doctor’s office is your own home</a>
+            </li>
+            <li>
+              <a href="#"
+                >How to handle layoffs with compassion and transparency</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                UK buses are getting air purifiers to protect passengers from
+                viruses
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                GitHub buried a data archive at the North Pole in case
+                post-apocalyptic society needs help
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                New leak shows off Samsung Galaxy Note 20 in glorious render
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="latest-articles-item">
+          <h2 class="section-title">
+            <a href="#"> Creative <i class="fas fa-angle-right"></i> </a>
+          </h2>
+          <div class="main-article">
+            <div class="main-article-showcase-header">
+              <div class="main-article-details">
+                <a href="#">
+                  <p class="main-article-tag">MOST POPULAR</p>
+                  <h2 class="main-article-title">
+                    How an AI graphic designer convinced clients it was human
+                  </h2>
+                </a>
+                <ul class="main-article-social">
+                  <li><a href="">Thomas Macaulay</a> &bull; 5 days ago</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="main-article-latest">
+              <div class="main-article-latest-details">
+                <p class="main-article-latest-subtitle">LATEST</p>
+                <h3 class="main-article-latest-title">
+                  This illustrator celebrates analog photography by drawing
+                  classic film cameras
+                </h3>
+              </div>
+              <img
+                src="./img/latest-articles-sub-images/latest-articles-subimage-5.png"
+                alt="cameras image"
+              />
+            </div>
+          </div>
+
+          <ul class="main-article-subarticles">
+            <li>
+              <a href="#">
+                Amazon is making a Fallout TV show with Westworld's creators
+              </a>
+            </li>
+            <li>
+              <a href="#">There’s an actual science to good Instagram photos</a>
+            </li>
+            <li>
+              <a href="#">
+                This CSS library makes it easy to design Windows XP-inspired UIs
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                This AI wrote such emo lyrics that humans thought it was My
+                Chemical Romance
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                This CSS library makes it easy to build Windows 98-inspired UIs
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="latest-articles-item">
+          <h2 class="section-title">
+            <a href="#"> Podium <i class="fas fa-angle-right"></i> </a>
+          </h2>
+          <div class="main-article">
+            <div class="main-article-showcase-header">
+              <div class="main-article-details">
+                <a href="#">
+                  <p class="main-article-tag">MOST POPULAR</p>
+                  <h2 class="main-article-title">
+                    Tech in Latin America: An entrepreneur’s guide to June’s
+                    startup news
+                  </h2>
+                </a>
+                <ul class="main-article-social">
+                  <li><a href="">Conrad Egusa</a> &bull; 5 days ago</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="main-article-latest">
+              <div class="main-article-latest-details">
+                <p class="main-article-latest-subtitle">LATEST</p>
+                <h3 class="main-article-latest-title">
+                  4 ways to improve your latest product’s landing page to
+                  guarantee conversion
+                </h3>
+              </div>
+              <img
+                src="./img/latest-articles-sub-images/latest-articles-subimage-6.jpg"
+                alt=" image"
+              />
+            </div>
+          </div>
+
+          <ul class="main-article-subarticles">
+            <li>
+              <a href="#"
+                >Why our laws can't protect me from my digital stalker</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                Tech in Latin America: An entrepreneur’s guide to May’s startup
+                news
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                >Coming out trans in tech: An entrepreneur's experience</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                >An entrepreneur’s guide to COVID-19 tech news in May</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                Why Gary Vaynerchuk's 12 hour TikTok telethon revealed a gentler
+                side
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="latest-articles-item">
+          <h2 class="section-title">
+            <a href="#"> Insights <i class="fas fa-angle-right"></i> </a>
+          </h2>
+          <div class="main-article">
+            <div class="main-article-showcase-header">
+              <div class="main-article-details">
+                <a href="#">
+                  <p class="main-article-tag">MOST POPULAR</p>
+                  <h2 class="main-article-title">
+                    Is your brain okay?
+                  </h2>
+                </a>
+                <ul class="main-article-social">
+                  <li><a href="">Tristan Greene</a> &bull; 16 hours ago</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="main-article-latest">
+              <div class="main-article-latest-details">
+                <p class="main-article-latest-subtitle">LATEST</p>
+                <h3 class="main-article-latest-title">
+                  Thousands of Uber's Jump ebikes saved from scrap heap to be
+                  loaned out for free
+                </h3>
+              </div>
+              <img
+                src="./img/latest-articles-sub-images/latest-articles-subimage-7.png"
+                alt="bicycle image"
+              />
+            </div>
+          </div>
+
+          <ul class="main-article-subarticles">
+            <li>
+              <a href="#">
                 Satoshi Nakaboto: ‘Bitcoin inches up after trading flat for 2
                 weeks’
-              </h3>
-            </div>
-            <img src="./img/latest-articles-sub-images/latest-articles-subimage-1.jpg" alt="chinese guy image" />
-          </div>
-        </div>
-
-        <ul class="main-article-subarticles">
-          <li>
-            <a href="#">
-              Robinhood cancels UK launch following increased scrutiny in the
-              US
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Billionaire Jeff Bezos just broke the record for the most
-              billions added in a single day
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Satoshi Nakaboto: ‘Coinbase says it prevented $280K in Bitcoin
-              from reaching Twitter hackers’
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              UK first to source coronavirus vaccines from biotech firms
-              backed by Bill Gates
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Satoshi Nakaboto: ‘OpenAI's GPT-3 may be the biggest thing since
-              Bitcoin’
-            </a>
-          </li>
-        </ul>
-      </article>
-      <article class="latest-articles-item">
-        <h2 class="section-title">
-          <a href="#"> Apps <i class="fas fa-angle-right"></i> </a>
-        </h2>
-        <div class="main-article">
-          <div class="main-article-showcase-header">
-            <div class="main-article-details">
-              <a href="#">
-                <p class="main-article-tag">MOST POPULAR</p>
-                <h2 class="main-article-title">
-                  TikTok might be sold to US investors to ward off security
-                  concerns
-                </h2>
               </a>
-              <ul class="main-article-social">
-                <li><a href="">Abhimanyu Ghoshal</a> &bull; 4 hours ago</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="main-article-latest">
-            <div class="main-article-latest-details">
-              <p class="main-article-latest-subtitle">LATEST</p>
-              <h3 class="main-article-latest-title">
-                How to find non-gaming servers on Discord
-              </h3>
-            </div>
-            <img src="./img/latest-articles-sub-images/latest-articles-subimage-2.jpg" alt="Discord image" />
-          </div>
-        </div>
-
-        <ul class="main-article-subarticles">
-          <li>
-            <a href="#">
-              How to auto-mute yourself in Zoom meetings (and shut up unruly
-              participants)
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Google's new video-shopping app is like a telemarketing channel
-              for influencers
-            </a>
-          </li>
-          <li>
-            <a href="#">The giant Twitter hack is being investigated by the FBI</a>
-          </li>
-          <li>
-            <a href="#">
-              Facebook gears up to take on TikTok with Instagram Reels'
-              worldwide launch
-            </a>
-          </li>
-          <li>
-            <a href="#">Gmail is getting a massive redesign to work more like Slack</a>
-          </li>
-        </ul>
-      </article>
-      <article class="latest-articles-item">
-        <h2 class="section-title">
-          <a href="#"> Gear <i class="fas fa-angle-right"></i> </a>
-        </h2>
-        <div class="main-article">
-          <div class="main-article-showcase-header">
-            <div class="main-article-details">
+            </li>
+            <li>
               <a href="#">
-                <p class="main-article-tag">MOST POPULAR</p>
-                <h2 class="main-article-title">
-                  The OnePlus Buds sound great at $79, but they just don't fit
-                  my ears
-                </h2>
+                7 simple tips to help you deal with a work crisis (and keep your
+                cool)
               </a>
-              <ul class="main-article-social">
-                <li><a href="">Napier Lopez</a> &bull; 14 hours ago</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="main-article-latest">
-            <div class="main-article-latest-details">
-              <p class="main-article-latest-subtitle">LATEST</p>
-              <h3 class="main-article-latest-title">
-                Nikon's $1,399 Z5 is an affordable full-frame mirrorless
-                camera — with some compromises
-              </h3>
-            </div>
-            <img src="./img/latest-articles-sub-images/latest-articles-subimage-3.jpg" alt="camera image" />
-          </div>
-        </div>
-
-        <ul class="main-article-subarticles">
-          <li>
-            <a href="#">
-              Review: The Hifiman Deva are premium $300 headphones that happen
-              to come with Bluetooth
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              We estimated how much the new braided iPhone cable will cost
-              consumers
-            </a>
-          </li>
-          <li>
-            <a href="#">Here's our best look at the OnePlus Nord yet</a>
-          </li>
-          <li><a href="#">Here’s how to scan a QR code on an iPhone</a></li>
-          <li>
-            <a href="#">Google 'accidentally' leaks the Pixel 4a in its own store</a>
-          </li>
-        </ul>
-      </article>
-      <article class="latest-articles-item">
-        <h2 class="section-title">
-          <a href="#"> Tech <i class="fas fa-angle-right"></i> </a>
-        </h2>
-        <div class="main-article">
-          <div class="main-article-showcase-header">
-            <div class="main-article-details">
+            </li>
+            <li><a href="#">Is your brain okay?</a></li>
+            <li>
               <a href="#">
-                <p class="main-article-tag">MOST POPULAR</p>
-                <h2 class="main-article-title">
-                  4 soft skills that will transform your software development
-                  career
-                </h2>
+                Robinhood cancels UK launch following increased scrutiny in the
+                US
               </a>
-              <ul class="main-article-social">
-                <li><a href="">.cult</a> &bull; 4 hours ago</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="main-article-latest">
-            <div class="main-article-latest-details">
-              <p class="main-article-latest-subtitle">LATEST</p>
-              <h3 class="main-article-latest-title">
-                EV battery basics: All you need to know about kW, kWh, and
-                charging speed
-              </h3>
-            </div>
-            <img src="./img/latest-articles-sub-images/latest-articles-subimage-4.jpg" alt="guy image" />
-          </div>
-        </div>
-
-        <ul class="main-article-subarticles">
-          <li>
-            <a href="#">Why the new doctor’s office is your own home</a>
-          </li>
-          <li>
-            <a href="#">How to handle layoffs with compassion and transparency</a>
-          </li>
-          <li>
-            <a href="#">
-              UK buses are getting air purifiers to protect passengers from
-              viruses
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              GitHub buried a data archive at the North Pole in case
-              post-apocalyptic society needs help
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              New leak shows off Samsung Galaxy Note 20 in glorious render
-            </a>
-          </li>
-        </ul>
-      </article>
-      <article class="latest-articles-item">
-        <h2 class="section-title">
-          <a href="#"> Creative <i class="fas fa-angle-right"></i> </a>
-        </h2>
-        <div class="main-article">
-          <div class="main-article-showcase-header">
-            <div class="main-article-details">
+            </li>
+            <li>
               <a href="#">
-                <p class="main-article-tag">MOST POPULAR</p>
-                <h2 class="main-article-title">
-                  How an AI graphic designer convinced clients it was human
-                </h2>
+                Billionaire Jeff Bezos just broke the record for the most
+                billions added in a single day
               </a>
-              <ul class="main-article-social">
-                <li><a href="">Thomas Macaulay</a> &bull; 5 days ago</li>
-              </ul>
+            </li>
+          </ul>
+        </article>
+        <article class="latest-articles-item">
+          <h2 class="section-title">
+            <a href="#"> Launch <i class="fas fa-angle-right"></i> </a>
+          </h2>
+          <div class="main-article">
+            <div class="main-article-showcase-header">
+              <div class="main-article-details">
+                <a href="#">
+                  <p class="main-article-tag">MOST POPULAR</p>
+                  <h2 class="main-article-title">
+                    How you can watch BMW unveil its hotly anticipated iX3 EV
+                    next week
+                  </h2>
+                </a>
+                <ul class="main-article-social">
+                  <li><a href="">Matthew Beedham</a> &bull; 12 days ago</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="main-article-latest">
+              <div class="main-article-latest-details">
+                <p class="main-article-latest-subtitle">LATEST</p>
+                <h3 class="main-article-latest-title">
+                  Facebook takes another stab at enabling 'free' mobile web
+                  access with its new Discover app
+                </h3>
+              </div>
+              <img
+                src="./img/latest-articles-sub-images/latest-articles-subimage-8.jpg"
+                alt="phones image"
+              />
             </div>
           </div>
 
-          <div class="main-article-latest">
-            <div class="main-article-latest-details">
-              <p class="main-article-latest-subtitle">LATEST</p>
-              <h3 class="main-article-latest-title">
-                This illustrator celebrates analog photography by drawing
-                classic film cameras
-              </h3>
-            </div>
-            <img src="./img/latest-articles-sub-images/latest-articles-subimage-5.png" alt="cameras image" />
-          </div>
-        </div>
-
-        <ul class="main-article-subarticles">
-          <li>
-            <a href="#">
-              Amazon is making a Fallout TV show with Westworld's creators
-            </a>
-          </li>
-          <li>
-            <a href="#">There’s an actual science to good Instagram photos</a>
-          </li>
-          <li>
-            <a href="#">
-              This CSS library makes it easy to design Windows XP-inspired UIs
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              This AI wrote such emo lyrics that humans thought it was My
-              Chemical Romance
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              This CSS library makes it easy to build Windows 98-inspired UIs
-            </a>
-          </li>
-        </ul>
-      </article>
-      <article class="latest-articles-item">
-        <h2 class="section-title">
-          <a href="#"> Podium <i class="fas fa-angle-right"></i> </a>
-        </h2>
-        <div class="main-article">
-          <div class="main-article-showcase-header">
-            <div class="main-article-details">
+          <ul class="main-article-subarticles">
+            <li>
               <a href="#">
-                <p class="main-article-tag">MOST POPULAR</p>
-                <h2 class="main-article-title">
-                  Tech in Latin America: An entrepreneur’s guide to June’s
-                  startup news
-                </h2>
+                Facebook-backed Reliance Jio pilots basic grocery ordering
+                service on WhatsApp in India
               </a>
-              <ul class="main-article-social">
-                <li><a href="">Conrad Egusa</a> &bull; 5 days ago</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="main-article-latest">
-            <div class="main-article-latest-details">
-              <p class="main-article-latest-subtitle">LATEST</p>
-              <h3 class="main-article-latest-title">
-                4 ways to improve your latest product’s landing page to
-                guarantee conversion
-              </h3>
-            </div>
-            <img src="./img/latest-articles-sub-images/latest-articles-subimage-6.jpg" alt=" image" />
-          </div>
-        </div>
-
-        <ul class="main-article-subarticles">
-          <li>
-            <a href="#">Why our laws can't protect me from my digital stalker</a>
-          </li>
-          <li>
-            <a href="#">
-              Tech in Latin America: An entrepreneur’s guide to May’s startup
-              news
-            </a>
-          </li>
-          <li>
-            <a href="#">Coming out trans in tech: An entrepreneur's experience</a>
-          </li>
-          <li>
-            <a href="#">An entrepreneur’s guide to COVID-19 tech news in May</a>
-          </li>
-          <li>
-            <a href="#">
-              Why Gary Vaynerchuk's 12 hour TikTok telethon revealed a gentler
-              side
-            </a>
-          </li>
-        </ul>
-      </article>
-      <article class="latest-articles-item">
-        <h2 class="section-title">
-          <a href="#"> Insights <i class="fas fa-angle-right"></i> </a>
-        </h2>
-        <div class="main-article">
-          <div class="main-article-showcase-header">
-            <div class="main-article-details">
+            </li>
+            <li>
+              <a href="#">Google's coronavirus information site is now live</a>
+            </li>
+            <li>
               <a href="#">
-                <p class="main-article-tag">MOST POPULAR</p>
-                <h2 class="main-article-title">
-                  Is your brain okay?
-                </h2>
+                The hyper-compact Microlino 2.0 EV is almost too cute for words
               </a>
-              <ul class="main-article-social">
-                <li><a href="">Tristan Greene</a> &bull; 16 hours ago</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="main-article-latest">
-            <div class="main-article-latest-details">
-              <p class="main-article-latest-subtitle">LATEST</p>
-              <h3 class="main-article-latest-title">
-                Thousands of Uber's Jump ebikes saved from scrap heap to be
-                loaned out for free
-              </h3>
-            </div>
-            <img src="./img/latest-articles-sub-images/latest-articles-subimage-7.png" alt="bicycle image" />
-          </div>
-        </div>
-
-        <ul class="main-article-subarticles">
-          <li>
-            <a href="#">
-              Satoshi Nakaboto: ‘Bitcoin inches up after trading flat for 2
-              weeks’
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              7 simple tips to help you deal with a work crisis (and keep your
-              cool)
-            </a>
-          </li>
-          <li><a href="#">Is your brain okay?</a></li>
-          <li>
-            <a href="#">
-              Robinhood cancels UK launch following increased scrutiny in the
-              US
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              Billionaire Jeff Bezos just broke the record for the most
-              billions added in a single day
-            </a>
-          </li>
-        </ul>
-      </article>
-      <article class="latest-articles-item">
-        <h2 class="section-title">
-          <a href="#"> Launch <i class="fas fa-angle-right"></i> </a>
-        </h2>
-        <div class="main-article">
-          <div class="main-article-showcase-header">
-            <div class="main-article-details">
+            </li>
+            <li>
               <a href="#">
-                <p class="main-article-tag">MOST POPULAR</p>
-                <h2 class="main-article-title">
-                  How you can watch BMW unveil its hotly anticipated iX3 EV
-                  next week
-                </h2>
+                TNW announces Neural: A blog for human-centric AI news and
+                analysis
               </a>
-              <ul class="main-article-social">
-                <li><a href="">Matthew Beedham</a> &bull; 12 days ago</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="main-article-latest">
-            <div class="main-article-latest-details">
-              <p class="main-article-latest-subtitle">LATEST</p>
-              <h3 class="main-article-latest-title">
-                Facebook takes another stab at enabling 'free' mobile web
-                access with its new Discover app
-              </h3>
-            </div>
-            <img src="./img/latest-articles-sub-images/latest-articles-subimage-8.jpg" alt="phones image" />
-          </div>
-        </div>
-
-        <ul class="main-article-subarticles">
-          <li>
-            <a href="#">
-              Facebook-backed Reliance Jio pilots basic grocery ordering
-              service on WhatsApp in India
-            </a>
-          </li>
-          <li>
-            <a href="#">Google's coronavirus information site is now live</a>
-          </li>
-          <li>
-            <a href="#">
-              The hyper-compact Microlino 2.0 EV is almost too cute for words
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              TNW announces Neural: A blog for human-centric AI news and
-              analysis
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              PSA: Amazon Fresh grocery deliveries are now free for US Prime
-              members
-            </a>
-          </li>
-        </ul>
-      </article>
-      <article class="latest-articles-item">
-        <h2 class="section-title">
-          <a href="#"> Distract <i class="fas fa-angle-right"></i> </a>
-        </h2>
-        <div class="main-article">
-          <div class="main-article-showcase-header">
-            <div class="main-article-details">
+            </li>
+            <li>
               <a href="#">
-                <p class="main-article-tag">MOST POPULAR</p>
-                <h2 class="main-article-title">
-                  Legend of Korra coming to Netflix after Avatar’s runaway
-                  success
-                </h2>
+                PSA: Amazon Fresh grocery deliveries are now free for US Prime
+                members
               </a>
-              <ul class="main-article-social">
-                <li><a href="">Rachel Kaser</a> &bull; 11 hours ago</li>
-              </ul>
+            </li>
+          </ul>
+        </article>
+        <article class="latest-articles-item">
+          <h2 class="section-title">
+            <a href="#"> Distract <i class="fas fa-angle-right"></i> </a>
+          </h2>
+          <div class="main-article">
+            <div class="main-article-showcase-header">
+              <div class="main-article-details">
+                <a href="#">
+                  <p class="main-article-tag">MOST POPULAR</p>
+                  <h2 class="main-article-title">
+                    Legend of Korra coming to Netflix after Avatar’s runaway
+                    success
+                  </h2>
+                </a>
+                <ul class="main-article-social">
+                  <li><a href="">Rachel Kaser</a> &bull; 11 hours ago</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="main-article-latest">
+              <div class="main-article-latest-details">
+                <p class="main-article-latest-subtitle">LATEST</p>
+                <h3 class="main-article-latest-title">
+                  This annoying Call of Duty: Warzone bug is absolutely killing
+                  me
+                </h3>
+              </div>
+              <img
+                src="./img/latest-articles-sub-images/latest-articles-subimage-9.jpg"
+                alt="cod image"
+              />
             </div>
           </div>
 
-          <div class="main-article-latest">
-            <div class="main-article-latest-details">
-              <p class="main-article-latest-subtitle">LATEST</p>
-              <h3 class="main-article-latest-title">
-                This annoying Call of Duty: Warzone bug is absolutely killing
-                me
-              </h3>
+          <ul class="main-article-subarticles">
+            <li>
+              <a href="#">
+                Ghost of Tsushima is samurai Assassin’s Creed — and not much
+                else
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Call of Duty glitch lets Warzone tricksters gain unfair
+                advantage against rivals
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                >We did the math: iPhone screen sizes ARE bigger now</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                Watch Tesla’s meteoric rise — set to techno-remixed Elon Musk
+                tweets
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Hey Apple, here's some other shit not to include with iPhones
+              </a>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Latest deals section -->
+      <section class="latest-deals"></section>
+      <section class="latest-deals">
+        <div class="latest-deals-header">
+          <h2 class="section-title">
+            <a href="#"> Latest deals <i class="fas fa-angle-right"></i> </a>
+          </h2>
+          <a href="#">See all Deals</a>
+        </div>
+        <div class="latest-deals-grid-container">
+          <!-- Latest deals item -->
+          <div class="latest-deals-item">
+            <div class="latest-deals-item-image">
+              <img
+                src="./img/latest-deals/latest-deals1.jpg"
+                alt="Lady explaining to 2 persons something"
+              />
+              <span class="latest-deals-discount-badge">100% OFF</span>
             </div>
-            <img src="./img/latest-articles-sub-images/latest-articles-subimage-9.jpg" alt="cod image" />
+            <h3 class="latest-deals-item-title">
+              <a href="#"
+                >FREE: Leadership & Management Diploma 4-Week Course</a
+              >
+            </h3>
+            <p class="latest-deals-item-subtitle">
+              <span class="latest-deals-old-price">$49</span> $234
+            </p>
+          </div>
+
+          <!-- Latest deals item -->
+          <div class="latest-deals-item">
+            <div class="latest-deals-item-image">
+              <img
+                src="./img/latest-deals/latest-deals2.jpg"
+                alt="Lady explaining to 2 persons something"
+              />
+              <span class="latest-deals-discount-badge">30% OFF</span>
+            </div>
+            <h3 class="latest-deals-item-title">
+              <a href="#"
+                >FREE: Leadership & Management Diploma 4-Week Course</a
+              >
+            </h3>
+            <p class="latest-deals-item-subtitle">
+              <span class="latest-deals-old-price">$49</span> $0
+            </p>
+          </div>
+
+          <!-- Latest deals item -->
+          <div class="latest-deals-item">
+            <div class="latest-deals-item-image">
+              <img
+                src="./img/latest-deals/latest-deals3.jpg"
+                alt="Lady explaining to 2 persons something"
+              />
+              <span class="latest-deals-discount-badge">60% OFF</span>
+            </div>
+            <h3 class="latest-deals-item-title">
+              <a href="#"
+                >FREE: Leadership & Management Diploma 4-Week Course</a
+              >
+            </h3>
+            <p class="latest-deals-item-subtitle">
+              <span class="latest-deals-old-price">$49</span> $0
+            </p>
+          </div>
+
+          <!-- Latest deals item -->
+          <div class="latest-deals-item">
+            <div class="latest-deals-item-image">
+              <img
+                src="./img/latest-deals/latest-deals4.jpg"
+                alt="Lady explaining to 2 persons something"
+              />
+              <span class="latest-deals-discount-badge">25% OFF</span>
+            </div>
+            <h3 class="latest-deals-item-title">
+              <a href="#"
+                >FREE: Leadership & Management Diploma 4-Week Course</a
+              >
+            </h3>
+            <p class="latest-deals-item-subtitle">
+              <span class="latest-deals-old-price">$49</span> $0
+            </p>
+          </div>
+
+          <!-- Latest deals item -->
+          <div class="latest-deals-item">
+            <div class="latest-deals-item-image">
+              <img
+                src="./img/latest-deals/latest-deals5.jpg"
+                alt="Lady explaining to 2 persons something"
+              />
+              <span class="latest-deals-discount-badge">70% OFF</span>
+            </div>
+            <h3 class="latest-deals-item-title">
+              <a href="#"
+                >FREE: Leadership & Management Diploma 4-Week Course</a
+              >
+            </h3>
+            <p class="latest-deals-item-subtitle">
+              <span class="latest-deals-old-price">$49</span> $0
+            </p>
+          </div>
+
+          <!-- Latest deals item -->
+          <div class="latest-deals-item">
+            <div class="latest-deals-item-image">
+              <img
+                src="./img/latest-deals/latest-deals6.jpg"
+                alt="Lady explaining to 2 persons something"
+              />
+              <span class="latest-deals-discount-badge">80% OFF</span>
+            </div>
+            <h3 class="latest-deals-item-title">
+              <a href="#"
+                >FREE: Leadership & Management Diploma 4-Week Course</a
+              >
+            </h3>
+            <p class="latest-deals-item-subtitle">
+              <span class="latest-deals-old-price">$49</span> $0
+            </p>
+          </div>
+
+          <!-- Latest deals item -->
+          <div class="latest-deals-item">
+            <div class="latest-deals-item-image">
+              <img
+                src="./img/latest-deals/latest-deals7.jpg"
+                alt="Lady explaining to 2 persons something"
+              />
+              <span class="latest-deals-discount-badge">98% OFF</span>
+            </div>
+            <h3 class="latest-deals-item-title">
+              <a href="#">KeepSolid VPN Unlimited: Lifetime Subscription</a>
+            </h3>
+            <p class="latest-deals-item-subtitle">
+              <span class="latest-deals-old-price">$49</span> $0
+            </p>
+          </div>
+
+          <!-- Latest deals item -->
+          <div class="latest-deals-item">
+            <div class="latest-deals-item-image">
+              <img
+                src="./img/latest-deals/latest-deals8.jpg"
+                alt="Lady explaining to 2 persons something"
+              />
+              <span class="latest-deals-discount-badge">95% OFF</span>
+            </div>
+            <h3 class="latest-deals-item-title">
+              <a href="#"
+                >FREE: Leadership & Management Diploma 4-Week Course</a
+              >
+            </h3>
+            <p class="latest-deals-item-subtitle">
+              <span class="latest-deals-old-price">$49</span> $0
+            </p>
           </div>
         </div>
+      </section>
+    </main>
 
-        <ul class="main-article-subarticles">
+    <!-- Footer -->
+    <footer>
+      <div class="footer-social">
+        <ul class="footer-social-icons">
           <li>
-            <a href="#">
-              Ghost of Tsushima is samurai Assassin’s Creed — and not much
-              else
-            </a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
           </li>
           <li>
-            <a href="#">
-              Call of Duty glitch lets Warzone tricksters gain unfair
-              advantage against rivals
-            </a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
           </li>
           <li>
-            <a href="#">We did the math: iPhone screen sizes ARE bigger now</a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
           </li>
           <li>
-            <a href="#">
-              Watch Tesla’s meteoric rise — set to techno-remixed Elon Musk
-              tweets
-            </a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
           </li>
           <li>
-            <a href="#">
-              Hey Apple, here's some other shit not to include with iPhones
-            </a>
+            <a href="#"><i class="fab fa-pinterest-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-rss"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-envelope"></i></a>
           </li>
         </ul>
-      </article>
-    </section>
 
-    <!-- Latest deals section -->
-    <section class="latest-deals"></section>
-    <section class="latest-deals">
-      <div class="latest-deals-header">
-        <h2 class="section-title">
-          <a href="#"> Latest deals <i class="fas fa-angle-right"></i> </a>
-        </h2>
-        <a href="#">See all Deals</a>
+        <ul class="footer-links">
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">ADVERTISE</a></li>
+          <li><a href="#">JOBS</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
       </div>
-      <div class="latest-deals-grid-container">
-        <!-- Latest deals item -->
-        <div class="latest-deals-item">
-          <div class="latest-deals-item-image">
-            <img src="./img/latest-deals/latest-deals1.jpg" alt="Lady explaining to 2 persons something" />
-            <span class="latest-deals-discount-badge">100% OFF</span>
-          </div>
-          <h3 class="latest-deals-item-title">
-            <a href="#">FREE: Leadership & Management Diploma 4-Week Course</a>
-          </h3>
-          <p class="latest-deals-item-subtitle">
-            <span class="latest-deals-old-price">$49</span> $234
-          </p>
-        </div>
-
-        <!-- Latest deals item -->
-        <div class="latest-deals-item">
-          <div class="latest-deals-item-image">
-            <img src="./img/latest-deals/latest-deals2.jpg" alt="Lady explaining to 2 persons something" />
-            <span class="latest-deals-discount-badge">30% OFF</span>
-          </div>
-          <h3 class="latest-deals-item-title">
-            <a href="#">FREE: Leadership & Management Diploma 4-Week Course</a>
-          </h3>
-          <p class="latest-deals-item-subtitle">
-            <span class="latest-deals-old-price">$49</span> $0
-          </p>
-        </div>
-
-        <!-- Latest deals item -->
-        <div class="latest-deals-item">
-          <div class="latest-deals-item-image">
-            <img src="./img/latest-deals/latest-deals3.jpg" alt="Lady explaining to 2 persons something" />
-            <span class="latest-deals-discount-badge">60% OFF</span>
-          </div>
-          <h3 class="latest-deals-item-title">
-            <a href="#">FREE: Leadership & Management Diploma 4-Week Course</a>
-          </h3>
-          <p class="latest-deals-item-subtitle">
-            <span class="latest-deals-old-price">$49</span> $0
-          </p>
-        </div>
-
-        <!-- Latest deals item -->
-        <div class="latest-deals-item">
-          <div class="latest-deals-item-image">
-            <img src="./img/latest-deals/latest-deals4.jpg" alt="Lady explaining to 2 persons something" />
-            <span class="latest-deals-discount-badge">25% OFF</span>
-          </div>
-          <h3 class="latest-deals-item-title">
-            <a href="#">FREE: Leadership & Management Diploma 4-Week Course</a>
-          </h3>
-          <p class="latest-deals-item-subtitle">
-            <span class="latest-deals-old-price">$49</span> $0
-          </p>
-        </div>
-
-        <!-- Latest deals item -->
-        <div class="latest-deals-item">
-          <div class="latest-deals-item-image">
-            <img src="./img/latest-deals/latest-deals5.jpg" alt="Lady explaining to 2 persons something" />
-            <span class="latest-deals-discount-badge">70% OFF</span>
-          </div>
-          <h3 class="latest-deals-item-title">
-            <a href="#">FREE: Leadership & Management Diploma 4-Week Course</a>
-          </h3>
-          <p class="latest-deals-item-subtitle">
-            <span class="latest-deals-old-price">$49</span> $0
-          </p>
-        </div>
-
-        <!-- Latest deals item -->
-        <div class="latest-deals-item">
-          <div class="latest-deals-item-image">
-            <img src="./img/latest-deals/latest-deals6.jpg" alt="Lady explaining to 2 persons something" />
-            <span class="latest-deals-discount-badge">80% OFF</span>
-          </div>
-          <h3 class="latest-deals-item-title">
-            <a href="#">FREE: Leadership & Management Diploma 4-Week Course</a>
-          </h3>
-          <p class="latest-deals-item-subtitle">
-            <span class="latest-deals-old-price">$49</span> $0
-          </p>
-        </div>
-
-        <!-- Latest deals item -->
-        <div class="latest-deals-item">
-          <div class="latest-deals-item-image">
-            <img src="./img/latest-deals/latest-deals7.jpg" alt="Lady explaining to 2 persons something" />
-            <span class="latest-deals-discount-badge">98% OFF</span>
-          </div>
-          <h3 class="latest-deals-item-title">
-            <a href="#">KeepSolid VPN Unlimited: Lifetime Subscription</a>
-          </h3>
-          <p class="latest-deals-item-subtitle">
-            <span class="latest-deals-old-price">$49</span> $0
-          </p>
-        </div>
-
-        <!-- Latest deals item -->
-        <div class="latest-deals-item">
-          <div class="latest-deals-item-image">
-            <img src="./img/latest-deals/latest-deals8.jpg" alt="Lady explaining to 2 persons something" />
-            <span class="latest-deals-discount-badge">95% OFF</span>
-          </div>
-          <h3 class="latest-deals-item-title">
-            <a href="#">FREE: Leadership & Management Diploma 4-Week Course</a>
-          </h3>
-          <p class="latest-deals-item-subtitle">
-            <span class="latest-deals-old-price">$49</span> $0
-          </p>
-        </div>
+      <div class="footer-copyright">
+        <p>
+          <a href="#"><img src="./img/tnw.svg" alt="Tnw logo" /></a> © 2006–2020
+          The Next Web B.V. Made with &lt;3 in Amsterdam. Powered by
+          <a href="#"><img src="./img/stackpath.svg" alt="Stackpack logo" /></a>
+        </p>
       </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footer-social">
-      <ul class="footer-social-icons">
-        <li>
-          <a href="#"><i class="fab fa-facebook-square"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-instagram-square"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-pinterest-square"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fas fa-rss"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fas fa-envelope"></i></a>
-        </li>
-      </ul>
-
-      <ul class="footer-links">
-        <li><a href="#">EVENTS</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">ADVERTISE</a></li>
-        <li><a href="#">JOBS</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
-    </div>
-    <div class="footer-copyright">
-      <p>
-        <a href="#"><img src="./img/tnw.svg" alt="Tnw logo" /></a> © 2006–2020
-        The Next Web B.V. Made with &lt;3 in Amsterdam. Powered by
-        <a href="#"><img src="./img/stackpath.svg" alt="Stackpack logo" /></a>
-      </p>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
