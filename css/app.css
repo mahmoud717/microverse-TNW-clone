@@ -206,14 +206,57 @@ main {
   color: #363636;
   padding-top: 10px;
 }
+
 .latest-news-article > p {
   color: #aaa;
   font-size: 13px;
   padding-top: 10px;
 }
+
 .latest-news-article > p > a {
   color: inherit;
 }
+
+/* latest funding section */
+.latest-funding-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.latest-funding-top-right {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  color: #f42;
+}
+
+.latest-funding-top-right a {
+  padding: 0 10px;
+  color: #f42;
+}
+
+.latest-funding-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.latest-funding-grid-container > article {
+  width: 100%;
+}
+
+.latest-funding-header {
+  padding: 7px 0 0 85px;
+}
+
+.latest-funding-grid-container > article img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: 11px;
+}
+
 /* Pseudo classes for the linters errors */
 .showcase-item-social li:not(:first-child) {
   padding: 0 15px;
