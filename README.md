@@ -22,7 +22,7 @@ The project is built using Html and Css with an extensive use of css proprieties
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/mahmoud717/microverse-TNW-clone/fd67ffb36a30dca26a06aa5c2fd56b4ac6aceac0/index.html)
+[Live Demo Link](https://rawcdn.githack.com/mahmoud717/microverse-TNW-clone/d3c713291146338f016340b23ea6f8d56fd53c59/index.html)
 
 ## To get a local copy up and running follow these simple example steps.
 
