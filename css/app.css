@@ -47,7 +47,8 @@ section {
   color: #f42;
 }
 
-.footer-breakline {
+.footer-breakline,
+.nav-main-search-sandwitch {
   display: none;
 }
 
@@ -135,10 +136,6 @@ section {
 
 .nav-main-left {
   justify-content: space-around;
-}
-
-.nav-main-search-sandwitch {
-  display: none;
 }
 
 .showcase-grid-container {
@@ -710,7 +707,8 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .latest-funding-grid-container article:last-child {
+  .latest-funding-grid-container article:last-child,
+  .showcase-item-header {
     display: none;
   }
 
@@ -739,10 +737,6 @@ main {
     height: 22.5rem;
   }
 
-  .showcase-item-header {
-    display: none;
-  }
-
   .showcase-item-main {
     justify-content: flex-end;
   }
@@ -768,11 +762,9 @@ main {
     display: flex;
   }
 
-  .nav-top {
-    display: none;
-  }
-
-  .nav-main {
+  .nav-top,
+  .nav-main,
+  .latest-deals-discount-badge {
     display: none;
   }
 
@@ -892,10 +884,6 @@ main {
   .latest-articles .main-article .main-article-showcase-header {
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  .latest-deals-discount-badge {
-    display: none;
   }
 
   .footer-copyright {
