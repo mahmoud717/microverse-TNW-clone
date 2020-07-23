@@ -673,14 +673,16 @@ main {
 
 /* media queries  */
 
- /* 1247 */
- @media (max-width: 1247px)
- {
+/* 1247 */
+
+@media (max-width: 1247px) {
   main {
     padding: 40px 20px;
   }
- }
+}
+
 /* 1025px */
+
 @media (max-width: 1023px) {
   .nav-container {
     display: flex;
@@ -907,5 +909,5 @@ main {
 
   .footer-breakline {
     display: block;
-  }  
+  }
 }
