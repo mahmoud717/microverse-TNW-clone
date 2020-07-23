@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 
-# Design Teardown project: replica of The Next Web website
+# Microverse building with responsive design project: replica of The Next Web website
 
 > This is a TNW homepage replica using HTML, CSS3 and media queriers.
 
